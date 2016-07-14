@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:MorningBrew.Control;assembly=MorningBrew"
+		x:Class="MorningBrew.Cells.BrewCell">
+	
+	<Grid Padding="{DynamicResource StandardPadding}" 
+          ColumnSpacing="{StaticResource StandardSpacing}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+
+
+            <Label Grid.Row="0"
+                   Grid.RowSpan="2"
+                   Text="{Binding BrewTitle}" 
+				TextColor="Fuchsia"
+                   Style="{DynamicResource EvolveListItemTextStyle}"
+                   StyleId="SessionItem"/>
+
+
+            <Label Grid.Row="2"
+                   Text="{Binding BrewDesc}" 
+                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
+                   StyleId="SpeakerNames"/>
+
+            <Label Grid.Row="3"
+                   VerticalOptions="End"
+                   Text="{Binding .}" 
+                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
+                   StyleId="SessionTime"/>
+
+            
+           <!-- <local:FavoriteImage  StyleId="FavoriteButton"
+                    Grid.Column="2" 
+                    Grid.Row="0"
+                    Source="{Binding IsFavorite}"
+                    HorizontalOptions="End" VerticalOptions="Start" Aspect="AspectFit">
+                <local:FavoriteImage.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding Path=FavoriteCommand, Source={x:Reference SessionCell}}"
+                                          CommandParameter="{Binding .}"/>
+                </local:FavoriteImage.GestureRecognizers>
+            </local:FavoriteImage>
+
+            <Grid Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2"
+                HorizontalOptions="FillAndExpand"  
+                VerticalOptions="Center"
+                HeightRequest="24"
+                Padding="0,4">
+               
+               <BoxView 
+                        BackgroundColor="{Binding MainCategory.Color}" 
+                        VerticalOptions="Center"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="24">
+                    <BoxView.IsVisible>
+                        <OnPlatform x:TypeArguments="x:Boolean" iOS="true" Android="true" WinPhone="true"/>
+                    </BoxView.IsVisible>
+                </BoxView>
+                <StackLayout Padding="16,0" VerticalOptions="Center">
+                    <Label   VerticalOptions="Center"
+                                VerticalTextAlignment ="Center" 
+                                HorizontalOptions="FillAndExpand"
+                                HorizontalTextAlignment="Center"
+                                FontSize="Micro"
+                                TextColor="White"
+                                x:Name="LabelBadgetName"
+                                Text="{Binding MainCategory.BadgeName}"/>
+                 </StackLayout>
+            </Grid>-->
+    </Grid>
+</ContentView>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew"
+		xmlns:cells="clr-namespace:MorningBrew.Cells;assembly=MorningBrew"
+             x:Class="MorningBrew.ViewModel.BrewsHome">
+   <ListView 
+            x:Name="ListViewBrew"
+            ItemsSource="{Binding BrewFeedGrouped}"
+            GroupDisplayBinding="{Binding Key}"
+            IsGroupingEnabled="true"
+            IsPullToRefreshEnabled="{Binding IsNotBusy}"
+            RefreshCommand="{Binding LoadBrewsCommand}"
+            IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+            HasUnevenRows ="true"
+            CachingStrategy="RecycleElement"
+            IsVisible="{Binding IsNotBusy}"
+            BackgroundColor="White"
+            AbsoluteLayout.LayoutFlags="All" 
+            AbsoluteLayout.LayoutBounds="0,0,1,1">
+            <ListView.SeparatorColor>
+                <OnPlatform x:TypeArguments="Color" iOS="{StaticResource ListSeparator}" WinPhone="{StaticResource ListSeparator}"/>
+            </ListView.SeparatorColor>
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <ViewCell.Height>
+                        <OnPlatform x:TypeArguments="x:Double" iOS="28"/>
+                    </ViewCell.Height>
+                    <cells:GroupHeaderView/>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+       <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+             <!--Inflate main Session Cell here-->
+             <cells:BrewCell/>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
