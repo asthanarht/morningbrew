@@ -55,6 +55,9 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="Pages\WebViewPage.cs" />
+    <Compile Include="Converter\IsFilledIconConverter.cs" />
+    <Compile Include="Service\NavigationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -86,6 +89,7 @@
     <Folder Include="ViewModel\" />
     <Folder Include="Cells\" />
     <Folder Include="Control\" />
+    <Folder Include="Converter\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\BrewsHome.xaml">

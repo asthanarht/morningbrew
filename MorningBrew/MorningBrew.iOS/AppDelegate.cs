@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
 
 namespace MorningBrew.iOS
 {
@@ -24,8 +26,17 @@ namespace MorningBrew.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+			ConfigureTheming();
             return base.FinishedLaunching(app, options);
         }
+
+
+		void ConfigureTheming()
+		{
+			UINavigationBar.Appearance.TintColor = UIColor.White;
+			UINavigationBar.Appearance.BarTintColor = Color.FromHex("A66349").ToUIColor();
+			UINavigationBar.Appearance.TitleTextAttributes = new UIStringAttributes { ForegroundColor = UIColor.White };
+			UIBarButtonItem.Appearance.SetTitleTextAttributes(new UITextAttributes { TextColor = UIColor.White }, UIControlState.Normal);
+		}
     }
 }

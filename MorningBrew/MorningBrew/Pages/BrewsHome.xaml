@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 		xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew"
 		xmlns:cells="clr-namespace:MorningBrew.Cells;assembly=MorningBrew"
-             x:Class="MorningBrew.ViewModel.BrewsHome">
+		 x:Name="BrewsHome"
+             x:Class="MorningBrew.ViewModel.BrewsHome" Title="The Morning Brew">
    <ListView 
             x:Name="ListViewBrew"
             ItemsSource="{Binding BrewFeedGrouped}"
@@ -19,7 +20,7 @@
             AbsoluteLayout.LayoutFlags="All" 
             AbsoluteLayout.LayoutBounds="0,0,1,1">
             <ListView.SeparatorColor>
-                <OnPlatform x:TypeArguments="Color" iOS="{StaticResource ListSeparator}" WinPhone="{StaticResource ListSeparator}"/>
+                <OnPlatform x:TypeArguments="Color" Android="{StaticResource ListSeparator}" iOS="{StaticResource ListSeparator}" WinPhone="{StaticResource ListSeparator}"/>
             </ListView.SeparatorColor>
         <ListView.GroupHeaderTemplate>
             <DataTemplate>
@@ -35,7 +36,7 @@
         <DataTemplate>
           <ViewCell>
              <!--Inflate main Session Cell here-->
-             <cells:BrewCell/>
+             <cells:BrewCellView FavoriteCommand="{Binding Path=BindingContext.FavoriteCommand, Source={x:Reference BrewsHome}}"/>
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>

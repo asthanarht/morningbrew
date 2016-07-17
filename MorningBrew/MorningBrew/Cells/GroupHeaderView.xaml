@@ -10,6 +10,7 @@
         </StackLayout.Padding>
         <Label Text="{Binding Key}" 
             VerticalOptions="Center" 
+				TextColor="#A66349"
             VerticalTextAlignment="Center">
             <Label.FontAttributes>
                 <OnPlatform x:TypeArguments="FontAttributes" iOS="Bold"/>
@@ -21,7 +22,7 @@
                 <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light"/>
             </Label.FontFamily>
             <Label.TextColor>
-                <OnPlatform x:TypeArguments="Color"  WinPhone="Black"/>
+                <OnPlatform x:TypeArguments="Color" Android="Black" WinPhone="Black"/>
             </Label.TextColor>
         </Label>
     </StackLayout>

@@ -44,6 +44,17 @@ namespace MorningBrew
 			BrewFeedGrouped.ReplaceRange(sorted);
 		}
 
+		ICommand favoriteCommand;
+		public ICommand FavoriteCommand =>
+		favoriteCommand ?? (favoriteCommand = new Command<DayBrew>(async (s) => await ExecuteFavoriteCommandAsync(s)));
+
+		async Task ExecuteFavoriteCommandAsync(DayBrew session)
+		{
+			//var toggled = await FavoriteService.ToggleFavorite(session);
+			//if (toggled && Settings.Current.FavoritesOnly)
+			//	SortSessions();
+		}
+
 }
 }
 
