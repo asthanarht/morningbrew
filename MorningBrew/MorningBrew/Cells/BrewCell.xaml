@@ -2,8 +2,8 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Name="BrewCell"
-		xmlns:local="clr-namespace:MorningBrew.Control;assembly=MorningBrew"
-		x:Class="MorningBrew.Cells.BrewCellView">
+		xmlns:local="clr-namespace:MorningBrew.Code;assembly=MorningBrew"
+		x:Class="MorningBrew.BrewCellView">
 		<ContentView.Resources>
 			  <ResourceDictionary>
 		        
@@ -52,10 +52,7 @@
                     Grid.Row="0"
                     Source="{Binding IsFavorite, Converter={StaticResource IsFilledIconConverter}, ConverterParameter='Cup'}"
                     HorizontalOptions="End" VerticalOptions="Start" Aspect="AspectFit">
-                <local:FavoriteImage.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding Path=FavoriteCommand, Source={x:Reference BrewCell}}"
-                                          CommandParameter="{Binding .}"/>
-                </local:FavoriteImage.GestureRecognizers>
+               
             </local:FavoriteImage>
 
             <!--<Grid Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2"

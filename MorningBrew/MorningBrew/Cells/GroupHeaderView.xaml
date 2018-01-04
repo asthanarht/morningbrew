@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MorningBrew.Cells.GroupHeaderView">
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MorningBrew.GroupHeaderView">
 	<StackLayout VerticalOptions="Center">
         <StackLayout.BackgroundColor>
             <OnPlatform x:TypeArguments="Color" Android="#F5F5F5" WinPhone="#F5F5F5"/>

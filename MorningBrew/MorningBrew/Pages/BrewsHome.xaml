@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-		xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew"
-		xmlns:cells="clr-namespace:MorningBrew.Cells;assembly=MorningBrew"
+		xmlns:local="clr-namespace:MorningBrew.Code;assembly=MorningBrew"
+		xmlns:cells="clr-namespace:MorningBrew;assembly=MorningBrew"
 		 x:Name="BrewsHome"
-             x:Class="MorningBrew.ViewModel.BrewsHome" Title="The Morning Brew">
+             x:Class="MorningBrew.ViewModel.BrewsHome" Title="The Morning Brew" Icon="tab_feed.png">
+	<ContentPage.Resources>
+		<ResourceDictionary>
+        
+        <local:IsFilledIconConverter x:Key="IsFilledIconConverter" />
+
+     </ResourceDictionary>
+	</ContentPage.Resources>
+	 <Grid RowSpacing="0">
+		<AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
    <ListView 
             x:Name="ListViewBrew"
             ItemsSource="{Binding BrewFeedGrouped}"
@@ -35,10 +44,73 @@
        <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-             <!--Inflate main Session Cell here-->
-             <cells:BrewCellView FavoriteCommand="{Binding Path=BindingContext.FavoriteCommand, Source={x:Reference BrewsHome}}"/>
+				
+				<local:BrewCustomCell FavoriteCommand="{Binding Path=BindingContext.FavoriteCommand, Source={x:Reference BrewsHome}}"/>
+									
+           <!-- <Grid Padding="{DynamicResource StandardPadding}" 
+		          ColumnSpacing="{StaticResource StandardSpacing}">
+		        <Grid.RowDefinitions>
+		            <RowDefinition Height="30"/>
+		            <RowDefinition Height="*"/>
+		            <RowDefinition Height="Auto"/>
+		            <RowDefinition Height="Auto"/>
+		        </Grid.RowDefinitions>
+		        <Grid.ColumnDefinitions>
+		            <ColumnDefinition Width="*"/>
+		            <ColumnDefinition Width="Auto"/>
+		            <ColumnDefinition Width="30"/>
+		        </Grid.ColumnDefinitions>
+
+
+		            <Label Grid.Row="0"
+		                   Grid.RowSpan="2"
+		                   Text="{Binding BrewTitle}" 
+						   TextColor="#A66349"
+						   FontAttributes="Bold"
+		                   Style="{DynamicResource EvolveListItemTextStyle}"
+		                   StyleId="SessionItem"/>
+
+
+		            <Label Grid.Row="2"
+		                   Text="{Binding BrewDesc}" 
+		                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
+		                   StyleId="SpeakerNames"/>
+
+		            <Label Grid.Row="3"
+		                   VerticalOptions="End"
+		                   Text="{Binding .}" 
+		                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
+		                   StyleId="SessionTime"/>
+		           <local:FavoriteImage StyleId="FavoriteIcon" 
+										 Grid.Column="2" 
+                                       Grid.Row="0"
+                                    x:Name="FavoriteIconiOS"
+                                    Source="cup_empty.png">
+                                   <TapGestureRecognizer Command="{Binding Path=FavoriteCommand, Source={x:Reference BrewsHome}}"
+                                          CommandParameter="{Binding .}"/>
+                   </local:FavoriteImage>
+
+		        
+    </Grid>-->
+
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
+
+			 <StackLayout IsVisible="{Binding IsBusy}"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
+                                    <StackLayout.Orientation>
+                                    <OnPlatform x:TypeArguments="StackOrientation" iOS="Horizontal"/>
+                                   </StackLayout.Orientation>
+            <ActivityIndicator IsRunning="{Binding IsBusy}" >
+                <ActivityIndicator.Color>
+                    <OnPlatform x:TypeArguments="Color" Android="{StaticResource Accent}"/>
+                </ActivityIndicator.Color>
+            </ActivityIndicator>
+            <Label Text="Loading Sessions..." HorizontalOptions="Center" Style="{DynamicResource EvolveListItemTextStyle}"/>
+       </StackLayout>
+			</AbsoluteLayout>
+		</Grid>
 </ContentPage>

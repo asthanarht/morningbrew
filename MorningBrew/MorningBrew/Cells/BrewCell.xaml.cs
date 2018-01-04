@@ -4,7 +4,7 @@ using System.Windows.Input;
 using MorningBrew.Code;
 using Xamarin.Forms;
 
-namespace MorningBrew.Cells
+namespace MorningBrew
 {
 	public partial class BrewCell : ViewCell
 	{

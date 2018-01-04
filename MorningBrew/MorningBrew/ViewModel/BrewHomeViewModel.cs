@@ -16,11 +16,27 @@ namespace MorningBrew
 		public ObservableRangeCollection<Grouping<string, DayBrew>> BrewFeedGrouped { get; } 
 		         = new ObservableRangeCollection<Grouping<string, DayBrew>>();
 
+		private bool isFavorite;
+		public bool IsFavorite
+		{
+			get
+			{
+				return isFavorite;
+			}
+			set
+			{
+				isFavorite = value;
+				RaisePropertyChanged();
+			}
+		}
+
 		readonly IBrewService brewService;
+		readonly IBrewFavoriteService  brewFavService;
 
 		public BrewHomeViewModel()
 		{
 			brewService = DependencyService.Get<IBrewService>();
+			brewFavService = DependencyService.Get<IBrewFavoriteService>();
 		}
 
 		ICommand loadBrewsCommand;
@@ -29,6 +45,7 @@ namespace MorningBrew
 
 		public async Task ExecuteLoadBrewsAsync()
 		{
+			this.isFavorite = true;
 			BrewFeed.AddRange(await brewService.GetBrewsAsync());
 			Sort();
 
@@ -48,8 +65,19 @@ namespace MorningBrew
 		public ICommand FavoriteCommand =>
 		favoriteCommand ?? (favoriteCommand = new Command<DayBrew>(async (s) => await ExecuteFavoriteCommandAsync(s)));
 
-		async Task ExecuteFavoriteCommandAsync(DayBrew session)
+		public async Task ExecuteFavoriteCommandAsync(DayBrew brew)
 		{
+			var isFav=  await brewFavService.InsertFavoritBrew(brew);
+			if (isFav)
+				App.current.ShowToast(new Plugin.Toasts.NotificationOptions
+				{ 
+				 Title = "Morning Brew",
+					Description = "Your Brew is favorited",
+					IsClickable = true,
+
+					ClearFromHistory = false,
+					DelayUntil = DateTime.Now.AddSeconds(10)
+			});
 			//var toggled = await FavoriteService.ToggleFavorite(session);
 			//if (toggled && Settings.Current.FavoritesOnly)
 			//	SortSessions();

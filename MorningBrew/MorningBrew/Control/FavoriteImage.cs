@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace MorningBrew.Control
+namespace MorningBrew.Code
 {
 	public class FavoriteImage:Image
 	{

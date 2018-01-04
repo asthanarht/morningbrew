@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Xamarin.Forms;
 
-namespace MorningBrew.Cells
+namespace MorningBrew
 {
 	public class GroupHeader : ViewCell
 	{

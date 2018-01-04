@@ -8,26 +8,34 @@ namespace MorningBrew.Code
 	{
 		public WebViewPage(string title, string url)
 		{
-			NavigationPage.SetHasNavigationBar(this, true);
-			NavigationPage.SetBackButtonTitle(this, title);
-			this.Title = title;
-			WebView webView = new WebView
+			try
 			{
-				Source = new UrlWebViewSource
+				NavigationPage.SetHasNavigationBar(this, true);
+				NavigationPage.SetBackButtonTitle(this, title);
+				this.Title = title;
+				WebView webView = new WebView
 				{
-					Url = url,
-				},
-				VerticalOptions = LayoutOptions.FillAndExpand
-			};
 
-			// Build the page.
-			this.Content = new StackLayout
-			{
-				Children =
+					Source = System.Uri.EscapeUriString(url),
+
+					VerticalOptions = LayoutOptions.FillAndExpand,
+
+					HorizontalOptions = LayoutOptions.FillAndExpand
+				};
+
+				// Build the page.
+				this.Content = new StackLayout
+				{
+					Children =
 				{
 					webView
 				}
-			};
+				};
+			}
+			catch
+			{
+			}
+		
 		}
 	}
 }

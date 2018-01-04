@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X5k-f2-b5h">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5k-f2-b5h">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +14,15 @@
                         <viewControllerLayoutGuide type="bottom" id="9ZL-r4-8FZ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yd7-JS-zBw">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" image="coffeebrew.png" translatesAutoresizingMaskIntoConstraints="NO" id="Atu-J0-cXu">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="tintColor" red="0.1803921568627451" green="0.094117647058823528" blue="0.066666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="tintColor" red="0.1803921568627451" green="0.094117647058823528" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.20965547251794858" green="0.14024803415035295" blue="0.072493924223480541" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20965547251794858" green="0.14024803415035295" blue="0.072493924223480541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Atu-J0-cXu" firstAttribute="leading" secondItem="yd7-JS-zBw" secondAttribute="leading" id="2dA-m6-HZe"/>
                             <constraint firstItem="Atu-J0-cXu" firstAttribute="top" secondItem="yd7-JS-zBw" secondAttribute="top" id="LVJ-cf-jMp"/>
@@ -37,5 +38,20 @@
     </scenes>
     <resources>
         <image name="coffeebrew.png" width="648" height="1144"/>
+        <image name="Default-568h.png" width="320" height="568"/>
+        <image name="Default-Portrait.png" width="768" height="1004"/>
+        <image name="Default.png" width="320" height="480"/>
+        <image name="Icon-60.png" width="60" height="60"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="heart_empty.png" width="22" height="20"/>
+        <image name="heart_filled.png" width="22" height="20"/>
+        <image name="cup_empty.png" width="50" height="50"/>
+        <image name="cup_filled.png" width="50" height="50"/>
+        <image name="tab_feed_selected.png" width="32" height="30"/>
+        <image name="tab_feed.png" width="32" height="30"/>
+        <image name="tab_fav_selected.png" width="100" height="100"/>
+        <image name="tab_fav.png" width="23" height="30"/>
     </resources>
 </document>

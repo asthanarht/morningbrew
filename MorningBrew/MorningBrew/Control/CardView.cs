@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace MorningBrew.Control
+namespace MorningBrew
 {
 	public class CardView : Frame
 	{

@@ -17,6 +17,8 @@ namespace MorningBrew
 			}
 		}
 
+
+
 		public bool IsBusy
 		{
 			get
