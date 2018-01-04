@@ -1,0 +1,31 @@
+Function=xamarin_get_block_descriptor
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/System.dll
+Function=xamarin_timezone_get_data
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-cache/Link/mscorlib.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

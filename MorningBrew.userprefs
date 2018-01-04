@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{B28B17E1-AFDD-4A56-BE9C-0B777EB278B6}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workbench ActiveDocument="morningbrew Status">
+    <Files>
+      <File FileName="morningbrew Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>MorningBrew/MorningBrew.Droid/MorningBrew.Droid.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.MorningBrew.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.09300B13-1D7C-4E47-9950-F97FB9CBE349" automaticSigning="False" />
+</Properties>

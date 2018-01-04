@@ -1,0 +1,3 @@
+/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.Droid/obj/Debug/MorningBrew.Droid.csprojResolveAssemblyReference.cache
+/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.Droid/obj/Debug/MorningBrew.Droid.csproj.CoreCompileInputs.cache
+/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew.Droid/obj/Debug/MorningBrew.Droid.dll
