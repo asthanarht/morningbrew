@@ -251,6 +251,12 @@
             <remarks>The interface for this property is defined by the <see cref="M:Xamarin.Forms.AbsoluteLayout.GetLayoutFlags" /> and <see cref="M:Xamarin.Forms.AbsoluteLayout.SetLayoutFlags" /> methods.
         </remarks>
         </member>
+        <member name="M:Xamarin.Forms.AbsoluteLayout.On``1">
+            <typeparam name="T">To be added.</typeparam>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.AbsoluteLayout.OnChildAdded(Xamarin.Forms.Element)">
             <param name="child">The element that was added to the children.</param>
             <summary>Called when a child is added to the <see cref="T:Xamarin.Forms.AbsoluteLayout" />.</summary>
@@ -381,6 +387,62 @@
         </member>
         <member name="F:Xamarin.Forms.AbsoluteLayoutFlags.YProportional">
             <summary>Interpret y property as proportional to the remaining space after height is accounted for.</summary>
+        </member>
+        <member name="T:Xamarin.Forms.Accelerator">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Accelerator.Equals(System.Object)">
+            <param name="obj">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Accelerator.FromString(System.String)">
+            <param name="text">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Accelerator.GetHashCode">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Accelerator.Keys">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Accelerator.Modifiers">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Accelerator.op_Implicit(System.String)~Xamarin.Forms.Accelerator">
+            <param name="accelerator">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Accelerator.ToString">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Xamarin.Forms.AcceleratorTypeConverter">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Xamarin.Forms.AcceleratorTypeConverter">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.AcceleratorTypeConverter.ConvertFromInvariantString(System.String)">
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
         </member>
         <member name="T:Xamarin.Forms.ActivityIndicator">
             <summary>A visual control used to indicate that something is ongoing.</summary>
@@ -705,6 +767,10 @@ var indicator = new ActivityIndicator {
         <member name="P:Xamarin.Forms.Application.Properties">
             <summary>Gets the dictionary of properties for this <see cref="T:Xamarin.Forms.Application" /> object.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Application.Quit">
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:Xamarin.Forms.Application.Resources">
@@ -2625,6 +2691,16 @@ namespace FormsGallery
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:Xamarin.Forms.ButtonsMask">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.ButtonsMask.Primary">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.ButtonsMask.Secondary">
+            <summary>To be added.</summary>
+        </member>
         <member name="T:Xamarin.Forms.CarouselPage">
             <summary>A Page that users can swipe from side to side to display pages of content, like a gallery.</summary>
             <remarks>
@@ -2912,6 +2988,80 @@ Content = new TableView
         <member name="E:Xamarin.Forms.Cell.Tapped">
             <summary>Occurs when the Cell is Tapped.</summary>
             <remarks />
+        </member>
+        <member name="T:Xamarin.Forms.ClickedEventArgs">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Xamarin.Forms.ClickedEventArgs(Xamarin.Forms.ButtonsMask,System.Object)">
+            <param name="buttons">To be added.</param>
+            <param name="commandParameter">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ClickedEventArgs.Buttons">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ClickedEventArgs.Parameter">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Xamarin.Forms.ClickGestureRecognizer">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Xamarin.Forms.ClickGestureRecognizer">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ClickGestureRecognizer.Buttons">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.ClickGestureRecognizer.ButtonsProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="E:Xamarin.Forms.ClickGestureRecognizer.Clicked">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ClickGestureRecognizer.Command">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ClickGestureRecognizer.CommandParameter">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.ClickGestureRecognizer.CommandParameterProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.ClickGestureRecognizer.CommandProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ClickGestureRecognizer.NumberOfClicksRequired">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.ClickGestureRecognizer.NumberOfClicksRequiredProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.ClickGestureRecognizer.SendClicked(Xamarin.Forms.View,Xamarin.Forms.ButtonsMask)">
+            <param name="sender">To be added.</param>
+            <param name="buttons">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
         </member>
         <member name="T:Xamarin.Forms.CollectionSynchronizationCallback">
             <param name="collection">The collection that was passed to <see cref="M:Xamarin.Forms.BindingBase.EnableCollectionSynchronization" />.</param>
@@ -3922,6 +4072,36 @@ var button = new Button {
             <summary>Initializes a new instance of the Command class.</summary>
             <remarks />
         </member>
+        <member name="T:Xamarin.Forms.CompressedLayout">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.CompressedLayout.GetHeadlessOffset(Xamarin.Forms.BindableObject)">
+            <param name="bindable">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.CompressedLayout.GetIsHeadless(Xamarin.Forms.BindableObject)">
+            <param name="bindable">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.CompressedLayout.HeadlessOffsetProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.CompressedLayout.IsHeadlessProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.CompressedLayout.SetIsHeadless(Xamarin.Forms.BindableObject,System.Boolean)">
+            <param name="bindable">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:Xamarin.Forms.Condition">
             <summary>Base class for conditions.</summary>
             <remarks>To be added.</remarks>
@@ -4857,6 +5037,11 @@ Device.BeginInvokeOnMainThread (() => {
                 </example>
             </remarks>
         </member>
+        <member name="P:Xamarin.Forms.Device.Flags">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.Device.GetAssemblies">
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <returns>To be added.</returns>
@@ -4962,6 +5147,11 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
         <member name="P:Xamarin.Forms.Device.RuntimePlatform">
             <summary>Gets the kind of device that Xamarin.Forms is currently working on.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Device.SetFlags(System.Collections.Generic.IReadOnlyList{System.String})">
+            <param name="flags">To be added.</param>
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Device.SetIdiom(Xamarin.Forms.TargetIdiom)">
@@ -5554,6 +5744,12 @@ var editor = new Editor {
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:Xamarin.Forms.Element.GetMenu(Xamarin.Forms.BindableObject)">
+            <param name="bindable">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="P:Xamarin.Forms.Element.Id">
             <summary>Gets a value that can be used to uniquely identify an element through the run of an application.</summary>
             <value>A Guid uniquely identifying the element.</value>
@@ -5562,6 +5758,10 @@ var editor = new Editor {
         <member name="P:Xamarin.Forms.Element.LogicalChildren">
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.Element.MenuProperty">
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Element.OnBindingContextChanged">
@@ -5621,6 +5821,12 @@ var editor = new Editor {
             <param name="key">The key of the DynamicResource</param>
             <summary>Sets the BindableProperty property of this element to be updated via the DynamicResource with the provided key.</summary>
             <remarks />
+        </member>
+        <member name="M:Xamarin.Forms.Element.SetMenu(Xamarin.Forms.BindableObject,Xamarin.Forms.Menu)">
+            <param name="bindable">To be added.</param>
+            <param name="menu">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Element.SetValueFromRenderer(Xamarin.Forms.BindableProperty,System.Object)">
             <param name="property">For internal use by the Xamarin.Forms platform.</param>
@@ -7040,6 +7246,12 @@ namespace FormsGallery
             <summary>
                 <para>Lays out the child elements when the layout is invalidated.</para>
             </summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Grid.On``1">
+            <typeparam name="T">To be added.</typeparam>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Grid.OnAdded(Xamarin.Forms.View)">
@@ -8772,6 +8984,13 @@ Debug.WriteLine (Object.ReferenceEquals (modalPage, poppedPage)); //prints "true
         <member name="T:Xamarin.Forms.ITemplatedItemsList`1">
             <typeparam name="TItem">To be added.</typeparam>
             <summary>This interface is for internal use by platform renderers.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.ITemplatedItemsList`1.ActivateContent(System.Int32,System.Object)">
+            <param name="index">To be added.</param>
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:Xamarin.Forms.ITemplatedItemsList`1.BindingContext">
@@ -10928,6 +11147,98 @@ namespace FormsGallery
         <member name="F:Xamarin.Forms.MeasureFlags.None">
             <summary>Do not include margins in a layout measurement.</summary>
         </member>
+        <member name="T:Xamarin.Forms.Menu">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Xamarin.Forms.Menu">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.Add(Xamarin.Forms.Menu)">
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.Clear">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.Contains(Xamarin.Forms.Menu)">
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.CopyTo(Xamarin.Forms.Menu[],System.Int32)">
+            <param name="array">To be added.</param>
+            <param name="arrayIndex">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Menu.Count">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.GetEnumerator">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.IndexOf(Xamarin.Forms.Menu)">
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.Insert(System.Int32,Xamarin.Forms.Menu)">
+            <param name="index">To be added.</param>
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.Invalidate">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Menu.IsReadOnly">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Menu.Item(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Menu.Items">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.Remove(Xamarin.Forms.Menu)">
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.RemoveAt(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Menu.System#Collections#IEnumerable#GetEnumerator">
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.Menu.Text">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:Xamarin.Forms.MenuItem">
             <summary>Class that presents a menu item and associates it with a command.</summary>
             <remarks>
@@ -10974,6 +11285,10 @@ namespace FormsGallery
             <summary>Intitializes a new <see cref="T:Xamarin.Forms.MenuItem" /> instance.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="F:Xamarin.Forms.MenuItem.AcceleratorProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.MenuItem.Activate">
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <remarks>To be added.</remarks>
@@ -10998,6 +11313,12 @@ namespace FormsGallery
         </member>
         <member name="F:Xamarin.Forms.MenuItem.CommandProperty">
             <summary>Identifies the command bound property.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.MenuItem.GetAccelerator(Xamarin.Forms.BindableObject)">
+            <param name="bindable">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:Xamarin.Forms.MenuItem.Icon">
@@ -11034,6 +11355,12 @@ namespace FormsGallery
         </member>
         <member name="M:Xamarin.Forms.MenuItem.OnClicked">
             <summary>When overriden by an app dev, implements behavior when the menu item is clicked.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.MenuItem.SetAccelerator(Xamarin.Forms.BindableObject,Xamarin.Forms.Accelerator)">
+            <param name="bindable">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="P:Xamarin.Forms.MenuItem.Text">
@@ -13288,6 +13615,12 @@ public class RelativeLayoutExample : ContentPage
             <summary>Lays out the <see cref="P:Xamarin.Forms.RelativeLayout.Children" /> in the specified rectangle.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:Xamarin.Forms.RelativeLayout.On``1">
+            <typeparam name="T">To be added.</typeparam>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.RelativeLayout.OnAdded(Xamarin.Forms.View)">
             <param name="view">The <see cref="T:Xamarin.Forms.View" /> added to the <see cref="P:Xamarin.Forms.RelativeLayout.Children" />.</param>
             <summary>Called when a <see cref="T:Xamarin.Forms.View" /> is added to the <see cref="P:Xamarin.Forms.RelativeLayout.Children" /> collection.</summary>
@@ -13475,6 +13808,11 @@ button.Effects.Add (Effect.Resolve ("com.YourCompany.ShadowEffect"));]]></code>
         </member>
         <member name="P:Xamarin.Forms.ResourceDictionary.Keys">
             <summary>The collection of identifier <see langword="string" />s that are keys in the <see cref="T:Xamarin.Forms.ResourceDictionary" />.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Xamarin.Forms.ResourceDictionary.MergedDictionaries">
+            <summary>To be added.</summary>
             <value>To be added.</value>
             <remarks>To be added.</remarks>
         </member>
@@ -14717,6 +15055,12 @@ var stackLayout = new StackLayout {
             <param name="height">A value representing the height of the child region bounding box.</param>
             <summary>Positions and sizes the children of a StackLayout.</summary>
             <remarks>Implementors wishing to change the default behavior of a StackLayout should override this method. It is suggested to still call the base method and modify its calculated results.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.StackLayout.On``1">
+            <typeparam name="T">To be added.</typeparam>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.StackLayout.OnSizeRequest(System.Double,System.Double)">
             <param name="widthConstraint">The available width for the StackLayout to use.</param>
@@ -18813,6 +19157,10 @@ namespace FormsGallery
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:Xamarin.Forms.Internals.IPlatformServices.QuitApplication">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="P:Xamarin.Forms.Internals.IPlatformServices.RuntimePlatform">
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <value>To be added.</value>
@@ -19670,30 +20018,51 @@ namespace FormsGallery
         </member>
         <member name="T:Xamarin.Forms.Internals.Registrar`1">
             <typeparam name="TRegistrable">To be added.</typeparam>
-            <summary>For internal use by the Xamarin.Forms platform.</summary>
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="C:Xamarin.Forms.Internals.Registrar`1">
-            <summary>For internal use by the Xamarin.Forms platform.</summary>
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Internals.Registrar`1.GetHandler``1(System.Type)">
             <typeparam name="TOut">To be added.</typeparam>
-            <param name="type">For internal use by the Xamarin.Forms platform.</param>
-            <summary>For internal use by the Xamarin.Forms platform.</summary>
+            <param name="type">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Internals.Registrar`1.GetHandler``1(System.Type,System.Object[])">
+            <typeparam name="TOut">To be added.</typeparam>
+            <param name="type">To be added.</param>
+            <param name="args">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Internals.Registrar`1.GetHandlerForObject``1(System.Object)">
+            <typeparam name="TOut">To be added.</typeparam>
+            <param name="obj">To be added.</param>
+            <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Internals.Registrar`1.GetHandlerType(System.Type)">
-            <param name="viewType">For internal use by the Xamarin.Forms platform.</param>
-            <summary>For internal use by the Xamarin.Forms platform.</summary>
+            <param name="viewType">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.Internals.Registrar`1.GetHandlerTypeForObject(System.Object)">
+            <param name="obj">To be added.</param>
+            <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Internals.Registrar`1.Register(System.Type,System.Type)">
-            <param name="tview">For internal use by the Xamarin.Forms platform.</param>
-            <param name="trender">For internal use by the Xamarin.Forms platform.</param>
-            <summary>For internal use by the Xamarin.Forms platform.</summary>
+            <param name="tview">To be added.</param>
+            <param name="trender">To be added.</param>
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="T:Xamarin.Forms.Internals.ResourceLoader">
@@ -19834,6 +20203,13 @@ namespace FormsGallery
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:Xamarin.Forms.Internals.TemplatedItemsList`2.ActivateContent(System.Int32,System.Object)">
+            <param name="index">To be added.</param>
+            <param name="item">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="E:Xamarin.Forms.Internals.TemplatedItemsList`2.CollectionChanged">
             <summary>For internal use by the Xamarin.Forms platform.</summary>
             <remarks>To be added.</remarks>
@@ -19844,10 +20220,10 @@ namespace FormsGallery
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.Internals.TemplatedItemsList`2.CreateContent(System.Int32,System.Object,System.Boolean)">
-            <param name="index">For internal use by the Xamarin.Forms platform.</param>
-            <param name="item">For internal use by the Xamarin.Forms platform.</param>
-            <param name="insert">For internal use by the Xamarin.Forms platform.</param>
-            <summary>For internal use by the Xamarin.Forms platform.</summary>
+            <param name="index">To be added.</param>
+            <param name="item">To be added.</param>
+            <param name="insert">To be added.</param>
+            <summary>To be added.</summary>
             <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
@@ -20302,6 +20678,39 @@ namespace FormsGallery
             <summary>The backing store for the attached property that controls whether the soft input mode pans or resizes content to allow the display of the on-screen input UI.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.ElevationProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement})">
+            <param name="config">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.GetElevation(Xamarin.Forms.VisualElement)">
+            <param name="element">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.VisualElement},System.Nullable{System.Single})">
+            <param name="config">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.Elevation.SetElevation(Xamarin.Forms.VisualElement,System.Nullable{System.Single})">
+            <param name="element">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="T:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ListView">
             <summary>The list view instance that Xamarin.Forms created on the Android platform.</summary>
             <remarks>To be added.</remarks>
@@ -20574,6 +20983,19 @@ namespace FormsGallery
             <returns>The updated configuration object on which developers can make successive method calls.</returns>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode.Always">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode.Automatic">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode.Never">
+            <summary>To be added.</summary>
+        </member>
         <member name="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage">
             <summary>The navigation page instance that Xamarin.Forms created on the iOS platform.</summary>
             <remarks>To be added.</remarks>
@@ -20594,6 +21016,12 @@ namespace FormsGallery
             <param name="element">The platform specific element on which to perform the operation.</param>
             <summary>Returns a Boolean value that tells whether the navigation bar on the platform-specific navigation page is translucent.</summary>
             <returns>A Boolean value that tells whether the navigation bar on the platform-specific navigation page is translucent.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.GetPrefersLargeTitles(Xamarin.Forms.BindableObject)">
+            <param name="element">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.GetStatusBarTextColorMode(Xamarin.Forms.BindableObject)">
@@ -20618,6 +21046,16 @@ namespace FormsGallery
             <summary>Backing store for the <see cref="P:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.IsNavigationBarTranslucent" /> property</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitles(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage})">
+            <param name="config">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.PrefersLargeTitlesProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetIsNavigationBarTranslucent(Xamarin.Forms.BindableObject,System.Boolean)">
             <param name="element">The platform specific element on which to perform the operation.</param>
             <param name="value">The new property value to assign.</param>
@@ -20629,6 +21067,19 @@ namespace FormsGallery
             <param name="value">The new property value to assign.</param>
             <summary>Sets a Boolean value that controls whether the navigation bar on the platform-specific navigation page is translucent.</summary>
             <returns>The updated configuration object on which developers can make successive method calls.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles(Xamarin.Forms.BindableObject,System.Boolean)">
+            <param name="element">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetPrefersLargeTitles(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.NavigationPage},System.Boolean)">
+            <param name="config">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.NavigationPage.SetStatusBarTextColorMode(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.iOSSpecific.StatusBarTextColorMode)">
@@ -20652,6 +21103,12 @@ namespace FormsGallery
             <summary>The page instance that Xamarin.Forms created on the iOS platform.</summary>
             <remarks>To be added.</remarks>
         </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.GetLargeTitleDisplay(Xamarin.Forms.BindableObject)">
+            <param name="element">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.GetPreferredStatusBarUpdateAnimation(Xamarin.Forms.BindableObject)">
             <param name="element">The platform specific element on which to perform the operation.</param>
             <summary>Returns a value that tells whether the preferred animation style to use when updating the status bar is <c>None</c>, <c>Slide</c>, or <c>Fade</c>.</summary>
@@ -20662,6 +21119,28 @@ namespace FormsGallery
             <param name="element">The platform specific element on which to perform the operation.</param>
             <summary>Returns a value that tells whether it is preferred that the status bar is shown, hidden, or relies on the system default.</summary>
             <returns>A value that tells whether it is preferred that the status bar is shown, hidden, or relies on the system default.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.GetSafeAreaInsets(Xamarin.Forms.BindableObject)">
+            <param name="element">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.GetUseSafeArea(Xamarin.Forms.BindableObject)">
+            <param name="element">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplay(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})">
+            <param name="config">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.LargeTitleDisplayProperty">
+            <summary>To be added.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.PreferredStatusBarUpdateAnimation(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})">
@@ -20682,6 +21161,29 @@ namespace FormsGallery
         </member>
         <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.PrefersStatusBarHiddenProperty">
             <summary>Sets a value that controls whether it is preferred that the status bar is shown, hidden, or relies on the system default.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsets(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})">
+            <param name="config">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SafeAreaInsetsProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode)">
+            <param name="element">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetLargeTitleDisplay(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},Xamarin.Forms.PlatformConfiguration.iOSSpecific.LargeTitleDisplayMode)">
+            <param name="config">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetPreferredStatusBarUpdateAnimation(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.iOSSpecific.UIStatusBarAnimation)">
@@ -20708,6 +21210,36 @@ namespace FormsGallery
             <param name="value">The new property value to assign.</param>
             <summary>Sets a value that controls whether it is preferred that the status bar is shown, hidden, or relies on the system default.</summary>
             <returns>The updated configuration object on which developers can make successive method calls.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetSafeAreaInsets(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},Xamarin.Forms.Thickness)">
+            <param name="config">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(Xamarin.Forms.BindableObject,System.Boolean)">
+            <param name="element">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.SetUseSafeArea(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page},System.Boolean)">
+            <param name="config">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.UseSafeAreaProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Page.UsingSafeArea(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Page})">
+            <param name="config">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Picker">
@@ -20857,37 +21389,128 @@ namespace FormsGallery
             <returns>The updated configuration object on which developers can make successive method calls.</returns>
             <remarks>To be added.</remarks>
         </member>
+        <member name="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage">
+            <summary>The navigation page instance that Xamarin.Forms created on the macOS platform.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle(Xamarin.Forms.BindableObject)">
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <summary>Returns the NavigationTransitionStyle value that tells what transition is used when a page is popped from the navigation stack.</summary>
+            <returns>The NavigationTransitionStyle value that tells the current transition when a page is popped from the navigation stack.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPopStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage})">
+            <param name="config">The platform specific configuration that contains the element on which to perform the operation.</param>
+            <summary>Returns the NavigationTransitionStyle value that tells what transition is used when a page is popped from the navigation stack.</summary>
+            <returns>The NavigationTransitionStyle value that tells the current transition when a page is popped from the navigation stack.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle(Xamarin.Forms.BindableObject)">
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <summary>Returns the NavigationTransitionStyle value that tells what transition is used when a page is push on the navigation stack.</summary>
+            <returns>The NavigationTransitionStyle value that tells the current transition when a page is pushed on the navigation stack.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.GetNavigationTransitionPushStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage})">
+            <param name="config">The platform specific configuration that contains the element on which to perform the operation.</param>
+            <summary>Returns the NavigationTransitionStyle value that tells what transition is used when a page is pushed on the navigation stack.</summary>
+            <returns>The NavigationTransitionStyle value that tells the current transition when a page is pushed on the navigation stack.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.NavigationTransitionPopStyleProperty">
+            <summary>Backing store for the attached property that controls the transition style of the platform-specific navigation page when a page is popped from the navigation stack.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.NavigationTransitionPushStyleProperty">
+            <summary>Backing store for the attached property that controls the transition style of the platform-specific navigation page when a page is pushed on the navigation stack.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionPopStyle(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)">
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <param name="value">The new transition style.</param>
+            <summary>Sets the transition style which is used, when popping from the navigation stack.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionPushStyle(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)">
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <param name="value">The new transition style.</param>
+            <summary>Sets the transition style which is used, when pushing pages on the navigation stack.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle,Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)">
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <param name="pushStyle">The new transition style when a page is pushed on the navigation stack.</param>
+            <param name="popStyle">The new transition style when a page is popped from the navigation stack.</param>
+            <summary>Sets the transition style which is used, when popping and pushing pages on the navigation stack.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationPage.SetNavigationTransitionStyle(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.NavigationPage},Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle,Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle)">
+            <param name="config">The platform specific configuration that contains the element on which to perform the operation.</param>
+            <param name="pushStyle">The new transition style when a page is pushed on the navigation stack.</param>
+            <param name="popStyle">The new transition style when a page is popped from the navigation stack.</param>
+            <summary>Sets the transition style which is used, when popping and pushing pages on the navigation stack.</summary>
+            <returns>The updated configuration object on which developers can make successive method calls.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle">
+            <summary>Enumerates navigation transition styles.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.Crossfade">
+            <summary>Indicates a crossfade transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.None">
+            <summary>Indicates no transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideBackward">
+            <summary>Indicates a slide backward transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideDown">
+            <summary>Indicates a slide down transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideForward">
+            <summary>Indicates a slide forward transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideLeft">
+            <summary>Indicates a slide left transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideRight">
+            <summary>Indicates a slide right transition.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.NavigationTransitionStyle.SlideUp">
+            <summary>Indicates a slide up transition.</summary>
+        </member>
         <member name="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page">
-            <summary>To be added.</summary>
+            <summary>The page instance that Xamarin.Forms created on the macOS platform..</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Xamarin.Forms.BindableObject)">
-            <param name="element">To be added.</param>
-            <summary>To be added.</summary>
-            <returns>To be added.</returns>
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <summary>Returns the tab order of the visual elements on a page as array.</summary>
+            <returns>An array of VisualElement.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.GetTabOrder(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page})">
-            <param name="config">To be added.</param>
-            <summary>To be added.</summary>
-            <returns>To be added.</returns>
+            <param name="config">The platform specific configuration that contains the element on which to perform the operation.</param>
+            <summary>Returns the tab order of the visual elements on a page as array.</summary>
+            <returns>An array of VisualElement.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Xamarin.Forms.BindableObject,Xamarin.Forms.VisualElement[])">
-            <param name="element">To be added.</param>
-            <param name="value">To be added.</param>
-            <summary>To be added.</summary>
+            <param name="element">The platform specific element on which to perform the operation.</param>
+            <param name="value">An array of VisualElement.</param>
+            <summary>Sets the tab order of visual elements on a page. Users can cycle through these elements with the tab key.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="M:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.SetTabOrder(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.macOS,Xamarin.Forms.Page},Xamarin.Forms.VisualElement[])">
-            <param name="config">To be added.</param>
-            <param name="value">To be added.</param>
-            <summary>To be added.</summary>
-            <returns>To be added.</returns>
+            <param name="config">The platform specific configuration that contains the element on which to perform the operation.</param>
+            <param name="value">An array of VisualElement.</param>
+            <summary>Sets the tab order of visual elements on a page. Users can cycle through these elements with the tab key.</summary>
+            <returns>The platform specific configuration that contains the element on which to perform the operation.</returns>
             <remarks>To be added.</remarks>
         </member>
         <member name="F:Xamarin.Forms.PlatformConfiguration.macOSSpecific.Page.TabOrderProperty">
-            <summary>To be added.</summary>
+            <summary>Backing store for the attached property that holds the tab order of the visual elements.</summary>
             <remarks>To be added.</remarks>
         </member>
         <member name="T:Xamarin.Forms.PlatformConfiguration.macOSSpecific.TabbedPage">
@@ -20950,6 +21573,49 @@ namespace FormsGallery
         </member>
         <member name="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.CollapseStyle.Partial">
             <summary>Indicates that panes should partially collapse.</summary>
+        </member>
+        <member name="T:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Xamarin.Forms.BindableObject)">
+            <param name="element">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.GetSelectionMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView})">
+            <param name="config">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SelectionModeProperty">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Xamarin.Forms.BindableObject,Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)">
+            <param name="element">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListView.SetSelectionMode(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.ListView},Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode)">
+            <param name="config">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode.Accessible">
+            <summary>To be added.</summary>
+        </member>
+        <member name="F:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode.Inaccessible">
+            <summary>To be added.</summary>
         </member>
         <member name="T:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.MasterDetailPage">
             <summary>The master-detail page instance that Xamarin.Forms created on the Windows platform.</summary>

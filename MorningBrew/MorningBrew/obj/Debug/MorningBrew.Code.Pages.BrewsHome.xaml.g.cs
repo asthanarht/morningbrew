@@ -11,8 +11,8 @@
 namespace MorningBrew.ViewModel {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/Pag" +
-        "es/BrewsHome.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/BrewsHom" +
+        "e.xaml")]
     public partial class BrewsHome : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

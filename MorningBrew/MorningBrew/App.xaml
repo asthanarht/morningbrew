@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Application 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
@@ -40,6 +40,12 @@
             <OnPlatform x:TypeArguments="x:String" Android="sans-serif-light" x:Key="SectionLabelFontFamily" />
 
 
+            <Style x:Key="separator" TargetType="ContentView">
+                <Setter Property="BackgroundColor" Value="#1FFF" />
+                <Setter Property="HeightRequest" Value="1" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="End" />
+            </Style>
             <Style x:Key="TweetUserTextStyle" TargetType="Label" BaseResourceKey="ListItemDetailTextStyle">
                 <Setter Property="Font" Value="{DynamicResource TweetUserTextSize}" />
                 <Setter Property="FontSize" Value="{DynamicResource EvolveListItemTextStyleSize}" />

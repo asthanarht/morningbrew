@@ -124,12 +124,12 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/MvvmHelpers.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/HtmlAgilityPack.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/HtmlAgilityPack.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Toasts.Forms.Plugin.Abstractions.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml

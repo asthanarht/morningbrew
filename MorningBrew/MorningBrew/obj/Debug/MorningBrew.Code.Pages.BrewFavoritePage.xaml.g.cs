@@ -11,8 +11,8 @@
 namespace MorningBrew.Code {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/Pag" +
-        "es/BrewFavoritePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/BrewFavo" +
+        "ritePage.xaml")]
     public partial class BrewFavoritePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

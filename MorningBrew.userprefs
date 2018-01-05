@@ -1,6 +1,14 @@
 ﻿<Properties StartupConfiguration="{B28B17E1-AFDD-4A56-BE9C-0B777EB278B6}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="morningbrew Status">
     <Files>
+      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml" Line="4" Column="25" />
+      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml.cs" Line="5" Column="22" />
+      <File FileName="MorningBrew/MorningBrew/Control/NavigationView.cs" Line="1" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/App.xaml" Line="48" Column="21" />
+      <File FileName="MorningBrew/MorningBrew/Control/CardView.cs" Line="1" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="116" Column="15" />
+      <File FileName="MorningBrew/MorningBrew.iOS/Main.cs" Line="17" Column="1" />
       <File FileName="morningbrew Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -10,8 +18,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <DisabledProjects>
-    <String>MorningBrew/MorningBrew.Droid/MorningBrew.Droid.csproj</String>
-  </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.MorningBrew.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.09300B13-1D7C-4E47-9950-F97FB9CBE349" automaticSigning="False" />
 </Properties>

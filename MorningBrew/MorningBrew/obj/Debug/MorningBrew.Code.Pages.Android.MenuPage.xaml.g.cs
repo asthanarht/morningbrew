@@ -11,8 +11,8 @@
 namespace MorningBrew.Code {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/Pag" +
-        "es/Android/MenuPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/Android/" +
+        "MenuPage.xaml")]
     public partial class MenuPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

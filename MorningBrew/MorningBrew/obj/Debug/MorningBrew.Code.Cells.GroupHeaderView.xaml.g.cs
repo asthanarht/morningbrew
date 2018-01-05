@@ -11,8 +11,8 @@
 namespace MorningBrew {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/Cel" +
-        "ls/GroupHeaderView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/GroupHea" +
+        "derView.xaml")]
     public partial class GroupHeaderView : global::Xamarin.Forms.ContentView {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
