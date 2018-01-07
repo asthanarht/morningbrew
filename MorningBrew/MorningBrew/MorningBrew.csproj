@@ -8,7 +8,7 @@
     <ProjectGuid>{3BDABD79-B082-47FA-BBF6-C5DD43E8F0CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MorningBrew.Code</RootNamespace>
+    <RootNamespace>MorningBrew</RootNamespace>
     <AssemblyName>MorningBrew</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
@@ -57,7 +57,6 @@
     <Compile Include="Converter\ImageConverters.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Pages\Android\RootPageAndroid.cs" />
     <Compile Include="Control\NavigationView.cs" />
     <Compile Include="Service\IBrewFavoriteService.cs" />
     <Compile Include="Service\BrewFavoriteService.cs" />
@@ -68,14 +67,15 @@
       <DependentUpon>BrewFavoritePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BrewFavoriteViewModel.cs" />
-    <Compile Include="Pages\IPhone\RootPageiOS.cs" />
     <Compile Include="Control\BrewNavigationPage.cs" />
-    <Compile Include="Pages\Android\MenuPage.xaml.cs">
-      <DependentUpon>MenuPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Control\CustomNavigationBar.xaml.cs">
       <DependentUpon>CustomNavigationBar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Control\SvgImage.cs" />
+    <Compile Include="Pages\BaseContentPage.cs" />
+    <Compile Include="Helper\IHudProvider.cs" />
+    <Compile Include="ViewModel\BaseNotify.cs" />
+    <Compile Include="Helper\Busy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PCLStorage">
@@ -129,8 +129,8 @@
     <Folder Include="Cells\" />
     <Folder Include="Control\" />
     <Folder Include="Converter\" />
-    <Folder Include="Pages\Android\" />
-    <Folder Include="Pages\IPhone\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Pages\BrewsHome.xaml">
@@ -149,13 +149,12 @@
     <EmbeddedResource Include="Pages\BrewFavoritePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\Android\MenuPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Control\CustomNavigationBar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\bookmark.svg" />
+    <EmbeddedResource Include="Resources\ic_bookmark.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.5.0.121934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.5.0.121934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

@@ -19,21 +19,7 @@ namespace MorningBrew
 				Current.Resources = new ResourceDictionary();
 			}
 
-			switch (Device.OS)
-			{
-				case TargetPlatform.Android:
-					MainPage = new NavigationPage(new BrewsHome());
-					break;
-				case TargetPlatform.iOS:
-					MainPage = new RootPageiOS();
-					break;
-				case TargetPlatform.Windows:
-				case TargetPlatform.WinPhone:
-					MainPage = new NavigationPage(new BrewsHome());
-					break;
-				default:
-					throw new NotImplementedException();
-			}
+            MainPage = new BrewsHome();
 
 		}
 

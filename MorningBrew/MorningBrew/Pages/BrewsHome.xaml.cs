@@ -12,16 +12,15 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace MorningBrew.ViewModel
 {
-    public partial class BrewsHome : ContentPage
+    public partial class BrewsHome : BaseContentPage<BrewHomeViewModel>
     {
-		BrewHomeViewModel ViewModel => vm ?? (vm = BindingContext as BrewHomeViewModel);
-		BrewHomeViewModel vm;
+		
 		public BrewsHome()
 		{
 			InitializeComponent();
-			BindingContext = vm = new BrewHomeViewModel();
+			//BindingContext = vm = new BrewHomeViewModel();
 
-
+           // ViewModel.ExecuteLoadBrewsAsync().GetAwaiter().GetResult();
 
 			ListViewBrew.ItemSelected += async (sender, e) =>
 				{
@@ -38,12 +37,15 @@ namespace MorningBrew.ViewModel
 
 
 		}
+        async void BookMarkClicked(object sender, EventArgs e)
+        {
+        }
 
 		 void OnTapGestureRecognizerTapped(object sender, EventArgs args)
 		{
 			Image imageSender = (Image)sender;
 			var brew = (DayBrew)imageSender.BindingContext;
-			 vm.FavoriteCommand.Execute(brew);
+			// vm.FavoriteCommand.Execute(brew);
 		}
 		void ListViewTapped(object sender, ItemTappedEventArgs e)
 		{
@@ -58,8 +60,10 @@ namespace MorningBrew.ViewModel
 		{
 			base.OnAppearing();
 			ListViewBrew.ItemTapped += ListViewTapped;
-			if (vm.BrewFeed.Count == 0)
-				vm.LoadBrewsCommand.Execute(false);
+
+                if (ViewModel.BrewFeed.Count == 0)
+                    ViewModel.LoadBrewsCommand.Execute(false);
+            
 		}
 
 		//public static readonly BindableProperty FavoriteCommandProperty =

@@ -13,7 +13,7 @@
 	--sdk \
 	11.2 \
 	--targetver \
-	7.1 \
+	8.1 \
 	--aot-options=-O=-float32 \
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
@@ -22,6 +22,12 @@
 	--dsym=no \
 	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/packages/HtmlAgilityPack.1.6.11/lib/netstandard2.0/HtmlAgilityPack.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.Xamarin.Forms.Lottie.2.4.0/lib/xamarinios/Lottie.Forms.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.Xamarin.Forms.Lottie.2.4.0/lib/xamarinios/Lottie.Forms.iOS.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.iOS.Lottie.2.1.5.0/lib/xamarinios/Lottie.iOS.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll \
 	-r \
@@ -36,6 +42,14 @@
 	/Users/asthanarht/Documents/XF/morningbrew/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
 	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.1.59.3/lib/XamariniOS/SkiaSharp.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.Svg.1.59.1/lib/netstandard1.3/SkiaSharp.Svg.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.Views.Forms.1.59.3/lib/XamariniOS/SkiaSharp.Views.Forms.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.Views.1.59.3/lib/XamariniOS/SkiaSharp.Views.iOS.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -337,6 +351,12 @@
 	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/packages/HtmlAgilityPack.1.6.11/lib/netstandard2.0/HtmlAgilityPack.dll \
 	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.Xamarin.Forms.Lottie.2.4.0/lib/xamarinios/Lottie.Forms.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.Xamarin.Forms.Lottie.2.4.0/lib/xamarinios/Lottie.Forms.iOS.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.iOS.Lottie.2.1.5.0/lib/xamarinios/Lottie.iOS.dll \
+	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/MorningBrew.dll \
 	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/packages/Refractored.MvvmHelpers.1.3.0/lib/netstandard1.0/MvvmHelpers.dll \
@@ -346,6 +366,14 @@
 	/Users/asthanarht/Documents/XF/morningbrew/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll \
 	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.1.59.3/lib/XamariniOS/SkiaSharp.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.Svg.1.59.1/lib/netstandard1.3/SkiaSharp.Svg.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.Views.Forms.1.59.3/lib/XamariniOS/SkiaSharp.Views.Forms.dll \
+	-r \
+	/Users/asthanarht/Documents/XF/morningbrew/packages/SkiaSharp.Views.1.59.3/lib/XamariniOS/SkiaSharp.Views.iOS.dll \
 	-r \
 	/Users/asthanarht/Documents/XF/morningbrew/packages/Toasts.Forms.Plugin.3.3.0/lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll \
 	-r \

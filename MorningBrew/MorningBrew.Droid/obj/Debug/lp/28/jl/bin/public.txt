@@ -1,9 +1,5 @@
-attr fastScrollEnabled
-attr fastScrollHorizontalThumbDrawable
-attr fastScrollHorizontalTrackDrawable
-attr fastScrollVerticalThumbDrawable
-attr fastScrollVerticalTrackDrawable
-attr layoutManager
-attr reverseLayout
-attr spanCount
-attr stackFromEnd
+style TextAppearance_Compat_Notification_Info_Media
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
+style TextAppearance_Compat_Notification_Time_Media
+style TextAppearance_Compat_Notification_Title_Media

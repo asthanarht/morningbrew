@@ -135,6 +135,7 @@
     <BundleResource Include="Resources\tab_fav.png" />
     <BundleResource Include="Resources\tab_fav%402x.png" />
     <BundleResource Include="Resources\tab_fav%403x.png" />
+    <BundleResource Include="Resources\progress_balls.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -2,22 +2,16 @@
 <Paths>
   <Jars>
     <Jar>obj/Debug/lp/0/jl/formsviewgroup.jar</Jar>
-    <Jar>obj/Debug/lp/11/jl/arch-core-common.jar</Jar>
-    <Jar>obj/Debug/lp/12/jl/arch-lifecycle-common.jar</Jar>
-    <Jar>obj/Debug/lp/15/jl/support-annotations.jar</Jar>
+    <Jar>obj/Debug/lp/18/jl/arch-core-common.jar</Jar>
+    <Jar>obj/Debug/lp/19/jl/arch-lifecycle-common.jar</Jar>
+    <Jar>obj/Debug/lp/22/jl/support-annotations.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/0/jl/formsviewgroup.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/11/jl/arch-core-common.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/12/jl/arch-lifecycle-common.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/13/jl/bin/classes.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/14/jl/bin/classes.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/15/jl/support-annotations.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/16/jl/bin/classes.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/17/jl/bin/classes.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/18/jl/bin/classes.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/19/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/18/jl/arch-core-common.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/19/jl/arch-lifecycle-common.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/2/jl/bin/classes.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/20/jl/bin/classes.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/21/jl/bin/classes.jar</Jar>
-    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/22/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/22/jl/support-annotations.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/23/jl/bin/classes.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/24/jl/bin/classes.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/25/jl/bin/classes.jar</Jar>
@@ -25,40 +19,53 @@
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/27/jl/bin/classes.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/28/jl/bin/classes.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/29/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/30/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/31/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/32/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/33/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/34/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/35/jl/bin/classes.jar</Jar>
+    <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/36/jl/bin/classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/6/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/10/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/16/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/19/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/21/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/22/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/2/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/4/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/9/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/17/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/23/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/24/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/25/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/26/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/28/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/6/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/29/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/30/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/31/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/32/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/33/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/35/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/9/jl/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj/Debug/lp/6/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/10/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/23/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/6/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/2/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/4/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/9/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/17/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/30/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/9/jl/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/6.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/10.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/16.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/19.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/21.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/22.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/4.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/9.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/17.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/23.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/24.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/25.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/26.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/28.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/6.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/29.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/30.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/31.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/32.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/33.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/35.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/9.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

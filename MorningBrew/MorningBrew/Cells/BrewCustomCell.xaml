@@ -1,15 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		xmlns:local="clr-namespace:MorningBrew.Code;assembly=MorningBrew"
-		x:Class="MorningBrew.Code.BrewCustomCell" x:Name="BrewCell">
-	<ContentView.Resources>
-			  <ResourceDictionary>
-		        
-		        <local:IsFilledIconConverter x:Key="IsFilledIconConverter" />
-
-		      </ResourceDictionary>
-		</ContentView.Resources>
+		xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew"
+		x:Class="MorningBrew.BrewCustomCell" x:Name="BrewCell">
+	
 	
 	<Grid Padding="{DynamicResource StandardPadding}" 
           ColumnSpacing="{StaticResource StandardSpacing}">

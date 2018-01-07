@@ -12,7 +12,24 @@
             <Color x:Key="NavigationText">White</Color>
             <Color x:Key="LabelSectionText">#6D6D72</Color>
             <Color x:Key="DetailTextColor">#979797</Color>
+            <Color x:Key="topGradient">#101010</Color>
+            <Color x:Key="bottomGradient">#2C2C2C</Color>
+            <Color x:Key="hudBackgroundColor">#C000</Color>
+            <Color x:Key="toastBackgroundColor">#FFAB4D</Color>
 
+            <Color x:Key="accent">#FF2D63</Color> <!--fucia-->
+            
+            <Color x:Key="fucia">#FF2D63</Color>
+            <Color x:Key="aqua">#35D3C2</Color>
+            <Color x:Key="lightPurple">#8788FF</Color>
+            <Color x:Key="purple">#BB72FF</Color>
+            <Color x:Key="darkPurple">#6362A5</Color>
+            <Color x:Key="magenta">#DB65CE</Color>
+            <Color x:Key="blue">#00BAFF</Color>
+            <Color x:Key="orange">#FFAB4D</Color>
+            <Color x:Key="gray">#8E8E92</Color>
+            <Color x:Key="lightGray">#BBB</Color>
+            <Color x:Key="backgroundPrimary">#393939</Color>
 
 
             <Thickness x:Key="SmallPadding">4</Thickness>

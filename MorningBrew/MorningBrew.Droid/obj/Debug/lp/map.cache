@@ -1,10 +1,17 @@
 FormsViewGroup
 HtmlAgilityPack
+Lottie
+Lottie.Forms
+Lottie.Forms.Droid
 MorningBrew
 MvvmHelpers
 Newtonsoft.Json
 PCLStorage.Abstractions
 PCLStorage
+SkiaSharp
+SkiaSharp.Svg
+SkiaSharp.Views.Android
+SkiaSharp.Views.Forms
 System.ObjectModel
 System.Runtime
 Toasts.Forms.Plugin.Abstractions

@@ -1,14 +1,19 @@
 ﻿<Properties StartupConfiguration="{B28B17E1-AFDD-4A56-BE9C-0B777EB278B6}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="morningbrew Status">
     <Files>
-      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml" Line="4" Column="25" />
-      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml.cs" Line="5" Column="22" />
-      <File FileName="MorningBrew/MorningBrew/Control/NavigationView.cs" Line="1" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/App.xaml" Line="48" Column="21" />
-      <File FileName="MorningBrew/MorningBrew/Control/CardView.cs" Line="1" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="116" Column="15" />
-      <File FileName="MorningBrew/MorningBrew.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Control/SvgImage.cs" Line="111" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" Line="66" Column="13" />
+      <File FileName="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" Line="48" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/ViewModel/BaseViewModel.cs" Line="31" Column="35" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="21" Column="36" />
+      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml" Line="6" Column="29" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml" Line="88" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml" Line="44" Column="37" />
+      <File FileName="MorningBrew/MorningBrew/Cells/GroupHeaderView.xaml" Line="30" Column="1" />
+      <File FileName="MorningBrew/MorningBrew.iOS/AppDelegate.cs" Line="34" Column="4" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BaseContentPage.cs" Line="185" Column="43" />
+      <File FileName="MorningBrew/MorningBrew/Helper/Busy.cs" Line="43" Column="1" />
+      <File FileName="MorningBrew/MorningBrew.iOS/Main.cs" Line="21" Column="1" />
       <File FileName="morningbrew Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

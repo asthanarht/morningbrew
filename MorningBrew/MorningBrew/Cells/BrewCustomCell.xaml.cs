@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Input;
+using MorningBrew.Code;
 using Xamarin.Forms;
 
-namespace MorningBrew.Code
+namespace MorningBrew
 {
 	public class BrewCell : ViewCell
 	{

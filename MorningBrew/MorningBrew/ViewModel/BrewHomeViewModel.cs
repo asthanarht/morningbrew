@@ -26,7 +26,7 @@ namespace MorningBrew
 			set
 			{
 				isFavorite = value;
-				RaisePropertyChanged();
+				//RaisePropertyChanged();
 			}
 		}
 
@@ -45,9 +45,12 @@ namespace MorningBrew
 
 		public async Task ExecuteLoadBrewsAsync()
 		{
-			this.isFavorite = true;
-			BrewFeed.AddRange(await brewService.GetBrewsAsync());
-			Sort();
+            using (var b = new Busy(this, "Wait for loading"))
+            {
+                this.isFavorite = true;
+                BrewFeed.AddRange(await brewService.GetBrewsAsync());
+                Sort();
+            }
 
 		}
 

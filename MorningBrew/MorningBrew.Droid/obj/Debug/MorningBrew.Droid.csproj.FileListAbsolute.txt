@@ -8,11 +8,18 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/MorningBrew.Droid-Signed.apk
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/FormsViewGroup.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/HtmlAgilityPack.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Lottie.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Lottie.Forms.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Lottie.Forms.Droid.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/MorningBrew.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/MvvmHelpers.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/PCLStorage.Abstractions.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/PCLStorage.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/SkiaSharp.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/SkiaSharp.Svg.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/SkiaSharp.Views.Android.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/SkiaSharp.Views.Forms.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Toasts.Forms.Plugin.Abstractions.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Toasts.Forms.Plugin.Droid.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Xamarin.Android.Arch.Core.Common.dll
@@ -48,6 +55,7 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/HtmlAgilityPack.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Toasts.Forms.Plugin.Abstractions.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Toasts.Forms.Plugin.Droid.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Toasts.Forms.Plugin.Droid.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/FormsViewGroup.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/FormsViewGroup.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Xamarin.Forms.Core.pdb
@@ -58,6 +66,10 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Lottie.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Lottie.Forms.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/Lottie.Forms.Droid.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/bin/Debug/SkiaSharp.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/MorningBrew.Droid.csprojResolveAssemblyReference.cache
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/MorningBrew.Droid.csproj.CoreCompileInputs.cache
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/MorningBrew.Droid.dll
@@ -81,8 +93,6 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/res/drawable-hdpi/coffeebrew.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/R.cs.flag
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/uploadflags.txt
-/Users/asthanarht/Documents/XF/morningbrew/packages/Toasts.Forms.Plugin.3.3.0/lib/MonoAndroid10/Toasts.Forms.Plugin.Droid.dll
-bin/Debug/Toasts.Forms.Plugin.Droid.dll.mdb
 bin/Debug/Mono.Android.pdb
 obj/Debug/linksrc/FormsViewGroup.dll.mdb
 obj/Debug/linksrc/Toasts.Forms.Plugin.Droid.dll.mdb
@@ -91,6 +101,9 @@ obj/Debug/linksrc/Xamarin.Forms.Platform.Android.dll.mdb
 obj/Debug/linksrc/Xamarin.Forms.Xaml.dll.mdb
 obj/Debug/linksrc/MorningBrew.Droid.pdb
 obj/Debug/linksrc/HtmlAgilityPack.pdb
+obj/Debug/linksrc/Lottie.pdb
+obj/Debug/linksrc/Lottie.Forms.pdb
+obj/Debug/linksrc/Lottie.Forms.Droid.pdb
 obj/Debug/linksrc/Mono.Android.pdb
 obj/Debug/linksrc/MorningBrew.pdb
 obj/Debug/linksrc/MvvmHelpers.pdb

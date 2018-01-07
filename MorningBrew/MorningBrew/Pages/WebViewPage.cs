@@ -16,7 +16,7 @@ namespace MorningBrew.Code
 				WebView webView = new WebView
 				{
 
-					Source = System.Uri.EscapeUriString(url),
+					//Source = System.Uri.EscapeUriString(url),
 
 					VerticalOptions = LayoutOptions.FillAndExpand,
 

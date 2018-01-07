@@ -20,7 +20,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>7.1</string>
+	<string>8.1</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.asthanarht.rohit</string>
 	<key>CFBundleVersion</key>
