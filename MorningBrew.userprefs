@@ -1,25 +1,25 @@
 ﻿<Properties StartupConfiguration="{B28B17E1-AFDD-4A56-BE9C-0B777EB278B6}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="morningbrew Status">
     <Files>
-      <File FileName="MorningBrew/MorningBrew/Control/SvgImage.cs" Line="111" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" Line="66" Column="13" />
-      <File FileName="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" Line="48" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/ViewModel/BaseViewModel.cs" Line="31" Column="35" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="21" Column="36" />
-      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml" Line="6" Column="29" />
+      <File FileName="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" Line="68" Column="34" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="67" Column="25" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" Line="55" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Service/BrewFeedItem.cs" Line="75" Column="15" />
+      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml" Line="81" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" Line="19" Column="9" />
       <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml" Line="88" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml" Line="44" Column="37" />
-      <File FileName="MorningBrew/MorningBrew/Cells/GroupHeaderView.xaml" Line="30" Column="1" />
-      <File FileName="MorningBrew/MorningBrew.iOS/AppDelegate.cs" Line="34" Column="4" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BaseContentPage.cs" Line="185" Column="43" />
-      <File FileName="MorningBrew/MorningBrew/Helper/Busy.cs" Line="43" Column="1" />
-      <File FileName="MorningBrew/MorningBrew.iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="MorningBrew/MorningBrew.iOS/Main.cs" Line="10" Column="29" />
       <File FileName="morningbrew Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" relfile="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" line="62" column="1" />
+      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" relfile="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" line="22" column="1" />
+      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" relfile="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" line="44" column="1" />
+      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" relfile="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" line="73" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

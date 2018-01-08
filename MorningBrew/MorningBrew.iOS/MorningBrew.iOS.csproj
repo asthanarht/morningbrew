@@ -136,6 +136,8 @@
     <BundleResource Include="Resources\tab_fav%402x.png" />
     <BundleResource Include="Resources\tab_fav%403x.png" />
     <BundleResource Include="Resources\progress_balls.json" />
+    <BundleResource Include="Resources\bookmark_animation.json" />
+    <BundleResource Include="Resources\save_bookmark.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

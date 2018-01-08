@@ -9,7 +9,7 @@ using MorningBrew.Code;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+
 namespace MorningBrew.ViewModel
 {
     public partial class BrewsHome : BaseContentPage<BrewHomeViewModel>
@@ -17,29 +17,46 @@ namespace MorningBrew.ViewModel
 		
 		public BrewsHome()
 		{
-			InitializeComponent();
+			 InitializeComponent();
+           // var t = this.animationViewCustom.AutoPlay=true;
+           
+            //AnimationViewCustom.Focused +=  (sender, e) =>
+            //{
+                
+            //    var brew = ListViewBrew.SelectedItem as DayBrew;
+
+            //     if (brew != null)
+            //    {
+            //         ViewModel.FavoriteCommand.Execute(brew);
+            //    }
+                    
+            //    var m = sender;
+            //    var t = e;
+            //    var tss = "safsaf";
+            //};
 			//BindingContext = vm = new BrewHomeViewModel();
 
            // ViewModel.ExecuteLoadBrewsAsync().GetAwaiter().GetResult();
 
-			ListViewBrew.ItemSelected += async (sender, e) =>
-				{
+			//ListViewBrew.ItemSelected += async (sender, e) =>
+				//{
 				
-				var brew = ListViewBrew.SelectedItem as DayBrew;
-					if (brew == null)
-						return;
+				//var brew = ListViewBrew.SelectedItem as DayBrew;
+				//	if (brew == null)
+				//		return;
 
-				await Navigation.PushAsync(new WebViewPage(brew.BrewTitle,brew.BrewUrl));
+				//await Navigation.PushAsync(new WebViewPage(brew.BrewTitle,brew.BrewUrl));
 
 
-					ListViewBrew.SelectedItem = null;
-				};
+				//	ListViewBrew.SelectedItem = null;
+				//};
 
 
 		}
         async void BookMarkClicked(object sender, EventArgs e)
         {
         }
+
 
 		 void OnTapGestureRecognizerTapped(object sender, EventArgs args)
 		{
