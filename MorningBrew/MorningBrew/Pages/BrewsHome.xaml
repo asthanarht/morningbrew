@@ -48,13 +48,7 @@
                                         <Label Grid.Row="0" Grid.RowSpan="2" Text="{Binding BrewTitle}" TextColor="#A66349" FontAttributes="Bold" Style="{DynamicResource EvolveListItemTextStyle}" StyleId="SessionItem" />
                                         <Label Grid.Row="2" Text="{Binding BrewDesc}" Style="{DynamicResource EvolveListItemDetailTextStyle}" />
 
-                                        <Grid Grid.Column="2" Grid.Row="0" BackgroundColor="Aqua" x:Name="favGrid" >
-                                            <forms:AnimationView  x:Name="animationViewCustom"  Scale="6.4" Animation="save_bookmark.json" AutoPlay="false" Loop="false" Speed="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                                            </forms:AnimationView>
-                                            <Grid.GestureRecognizers>
-                                                <TapGestureRecognizer Command="{Binding FavoriteCommand}" CommandParameter="{Binding .}" Source= "{x:Reference favGrid}" NumberOfTapsRequired="1"   />
-                                            </Grid.GestureRecognizers>
-                                        </Grid>
+              
                                     </Grid>
                                 </ViewCell.View>
                             </ViewCell>
