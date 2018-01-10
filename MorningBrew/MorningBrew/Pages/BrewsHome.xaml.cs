@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Lottie.Forms;
 using MorningBrew;
 using MorningBrew.Code;
 using Xamarin.Forms;
@@ -38,18 +39,20 @@ namespace MorningBrew.ViewModel
 
            // ViewModel.ExecuteLoadBrewsAsync().GetAwaiter().GetResult();
 
-			//ListViewBrew.ItemSelected += async (sender, e) =>
-				//{
-				
-				//var brew = ListViewBrew.SelectedItem as DayBrew;
-				//	if (brew == null)
-				//		return;
+			ListViewBrew.ItemSelected += async (sender, e) =>
+				{
+                    using (var b = new Busy(ViewModel, "One moment, please"))
+                    {
+                        var brew = ListViewBrew.SelectedItem as DayBrew;
+                        if (brew == null)
+                            return;
 
-				//await Navigation.PushAsync(new WebViewPage(brew.BrewTitle,brew.BrewUrl));
+                    await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew.BrewUrl)));
 
 
-				//	ListViewBrew.SelectedItem = null;
-				//};
+                        ListViewBrew.SelectedItem = null;
+                    }
+				};
 
 
 		}
@@ -57,6 +60,12 @@ namespace MorningBrew.ViewModel
         {
         }
 
+       async  void OnFrameClicked(object sender, EventArgs args)
+        {
+            var ani = (AnimationView)sender;
+            ani.Play();
+            //await _navigationService.NavigateAsync("NextPage");
+        }
 
 		 void OnTapGestureRecognizerTapped(object sender, EventArgs args)
 		{
@@ -82,6 +91,14 @@ namespace MorningBrew.ViewModel
                     ViewModel.LoadBrewsCommand.Execute(false);
             
 		}
+
+        public static NavigationPage ToNav( ContentPage page)
+        {
+            return new NavigationPage(page)
+            {
+                BarTextColor = Color.White,
+            };
+        }
 
 		//public static readonly BindableProperty FavoriteCommandProperty =
 		//	BindableProperty.Create(nameof(FavoriteCommand), typeof(ICommand), typeof(DayBrew), default(ICommand));
