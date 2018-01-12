@@ -16,10 +16,10 @@
                 </local:CustomNavigationBar.RightToolbar>
             </local:CustomNavigationBar>
             <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
-                <ContentView>
+                
                 <WebView x:Name="webView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                 </WebView>
-                    </ContentView>
+                  
                 </AbsoluteLayout>
             </Grid>
 	</local:BaseContentPage.Content>
