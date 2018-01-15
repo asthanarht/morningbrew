@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using MorningBrew;
 using Newtonsoft.Json;
 using PCLStorage;
+using System.Linq;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(BrewFavoriteService))]
@@ -45,10 +46,17 @@ namespace MorningBrew
 			{
 
 				var brewList = await GetFavoriteBrew();
-
-				brewList.Add(brewFeed);
-				var folder = await NavigateToFolder(BrewFolder);
-				return await SaveBrewList(folder,brewList);
+                var alreadyExist= brewList.Any(x=>x.BrewUrl==brewFeed.BrewUrl);
+                if (!alreadyExist)
+                {
+                    brewList.Add(brewFeed);
+                    var folder = await NavigateToFolder(BrewFolder);
+                    return await SaveBrewList(folder, brewList);
+                }
+                else
+                {
+                    return false;
+                }
 			}
 			catch
 			{
