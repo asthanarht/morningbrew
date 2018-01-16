@@ -13,7 +13,7 @@
             </local:CustomNavigationBar>
             <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
                 
-                <ListView x:Name="ListViewBrew" ItemsSource="{Binding BrewFeedGrouped}" GroupDisplayBinding="{Binding Key}" IsGroupingEnabled="true" IsPullToRefreshEnabled="{Binding IsNotBusy}" RefreshCommand="{Binding LoadBrewsCommand}" IsRefreshing="{Binding IsBusy, Mode=OneWay}" HasUnevenRows="true" CachingStrategy="RecycleElement" IsVisible="{Binding IsNotBusy}"
+                <ListView x:Name="ListViewBrew" ItemSelected="BrewItemSelected" ItemsSource="{Binding BrewFeedGrouped}" GroupDisplayBinding="{Binding Key}" IsGroupingEnabled="true" IsPullToRefreshEnabled="{Binding IsNotBusy}" RefreshCommand="{Binding LoadBrewsCommand}" IsRefreshing="{Binding IsBusy, Mode=OneWay}" HasUnevenRows="true" CachingStrategy="RecycleElement" IsVisible="{Binding IsNotBusy}"
                     BackgroundColor="White" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
                     <ListView.SeparatorColor>
                         <OnPlatform x:TypeArguments="Color" Android="{StaticResource ListSeparator}" iOS="{StaticResource ListSeparator}" WinPhone="{StaticResource ListSeparator}" />

@@ -33,8 +33,6 @@
 /Users/asthanarht/Documents/XF/morningbrew/packages/Com.Airbnb.iOS.Lottie.2.1.5.0/lib/xamarinios/Lottie.iOS.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/MorningBrew.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
-/Users/asthanarht/Documents/XF/morningbrew/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
-/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
 /Users/asthanarht/Documents/XF/morningbrew/packages/HtmlAgilityPack.1.6.11/lib/netstandard2.0/HtmlAgilityPack.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/netstandard.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/System.Data.dll
@@ -56,6 +54,8 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll
 /Users/asthanarht/Documents/XF/morningbrew/packages/Refractored.MvvmHelpers.1.3.0/lib/netstandard1.0/MvvmHelpers.dll
+/Users/asthanarht/Documents/XF/morningbrew/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
 /Users/asthanarht/Documents/XF/morningbrew/packages/Toasts.Forms.Plugin.3.3.0/lib/Xamarin.iOS10/Toasts.Forms.Plugin.Abstractions.dll
 /Users/asthanarht/Documents/XF/morningbrew/packages/PCLStorage.1.0.2/lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll

@@ -76,6 +76,9 @@
     <Compile Include="Helper\IHudProvider.cs" />
     <Compile Include="ViewModel\BaseNotify.cs" />
     <Compile Include="Helper\Busy.cs" />
+    <Compile Include="Pages\CustomWebViewPage.xaml.cs">
+      <DependentUpon>CustomWebViewPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PCLStorage">
@@ -155,6 +158,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\bookmark.svg" />
     <EmbeddedResource Include="Resources\ic_bookmark.svg" />
+    <EmbeddedResource Include="Pages\CustomWebViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\back_arrow.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.5.0.121934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.5.0.121934\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

@@ -19,7 +19,7 @@ namespace MorningBrew
 				Current.Resources = new ResourceDictionary();
 			}
 
-            MainPage = new BrewsHome();
+            MainPage = new NavigationPage(new BrewsHome());
 
 		}
 

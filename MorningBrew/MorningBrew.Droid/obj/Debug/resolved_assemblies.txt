@@ -86,14 +86,14 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Globalization.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Text.Encoding.dll
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.ComponentModel.dll
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Runtime.Numerics.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Xml.XmlDocument.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.ComponentModel.TypeConverter.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Linq.Expressions.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Runtime.Serialization.Formatters.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Reflection.Primitives.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.IO.FileSystem.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/android/assets/System.ComponentModel.dll

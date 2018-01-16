@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
-    <Jar>obj/Debug/lp/0/jl/formsviewgroup.jar</Jar>
-    <Jar>obj/Debug/lp/18/jl/arch-core-common.jar</Jar>
-    <Jar>obj/Debug/lp/19/jl/arch-lifecycle-common.jar</Jar>
-    <Jar>obj/Debug/lp/22/jl/support-annotations.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/0/jl/formsviewgroup.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/18/jl/arch-core-common.jar</Jar>
     <Jar>/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/lp/19/jl/arch-lifecycle-common.jar</Jar>

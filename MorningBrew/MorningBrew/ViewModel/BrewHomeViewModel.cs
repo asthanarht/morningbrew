@@ -64,23 +64,15 @@ namespace MorningBrew
 			BrewFeedGrouped.ReplaceRange(sorted);
 		}
 
-		ICommand favoriteCommand;
-		public ICommand FavoriteCommand =>
-		favoriteCommand ?? (favoriteCommand = new Command<DayBrew>(async (s) => await ExecuteFavoriteCommandAsync(s)));
+		//ICommand favoriteCommand;
+		//public ICommand FavoriteCommand =>
+		//favoriteCommand ?? (favoriteCommand = new Command<DayBrew>(async (s) => await ExecuteFavoriteCommandAsync(s)));
 
-		public async Task ExecuteFavoriteCommandAsync(DayBrew brew)
+        public async Task<bool> ExecuteFavoriteCommandAsync(DayBrew brew)
 		{
 			var isFav=  await brewFavService.InsertFavoritBrew(brew);
-			if (isFav)
-				App.current.ShowToast(new Plugin.Toasts.NotificationOptions
-				{ 
-				 Title = "Morning Brew",
-					Description = "Your Brew is favorited",
-					IsClickable = true,
-
-					ClearFromHistory = false,
-					DelayUntil = DateTime.Now.AddSeconds(10)
-			});
+			
+            return isFav;
 			//var toggled = await FavoriteService.ToggleFavorite(session);
 			//if (toggled && Settings.Current.FavoritesOnly)
 			//	SortSessions();

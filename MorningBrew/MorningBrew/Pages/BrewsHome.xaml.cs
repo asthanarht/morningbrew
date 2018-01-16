@@ -39,33 +39,42 @@ namespace MorningBrew.ViewModel
 
            // ViewModel.ExecuteLoadBrewsAsync().GetAwaiter().GetResult();
 
-			ListViewBrew.ItemSelected += async (sender, e) =>
-				{
-                    using (var b = new Busy(ViewModel, "One moment, please"))
-                    {
-                        var brew = ListViewBrew.SelectedItem as DayBrew;
-                        if (brew == null)
-                            return;
+			//ListViewBrew.ItemSelected += async (sender, e) =>
+				//{
+    //                using (var b = new Busy(ViewModel, "One moment, please"))
+    //                {
+    //                    var brew = ListViewBrew.SelectedItem as DayBrew;
+    //                    if (brew == null)
+    //                        return;
+    //                   await Navigation.PushAsync(new CustomWebViewPage(brew.BrewUrl));
+    //              //  await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew.BrewUrl)));
 
-                    await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew.BrewUrl)));
 
-
-                        ListViewBrew.SelectedItem = null;
-                    }
-				};
+    //                    ListViewBrew.SelectedItem = null;
+    //                }
+				//};
 
 
 		}
+        async void BrewItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            using (var b = new Busy(ViewModel, "One moment, please"))
+            {
+                var brew = ListViewBrew.SelectedItem as DayBrew;
+                if (brew == null)
+                    return;
+                await Navigation.PushAsync(new CustomWebViewPage(brew));
+                //  await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew.BrewUrl)));
+
+
+                ListViewBrew.SelectedItem = null;
+            }
+        }
         async void BookMarkClicked(object sender, EventArgs e)
         {
         }
 
-       async  void OnFrameClicked(object sender, EventArgs args)
-        {
-            var ani = (AnimationView)sender;
-            ani.Play();
-            //await _navigationService.NavigateAsync("NextPage");
-        }
+     
 
 		 void OnTapGestureRecognizerTapped(object sender, EventArgs args)
 		{

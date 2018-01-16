@@ -12,15 +12,20 @@
             </Grid.RowDefinitions>
             <local:CustomNavigationBar Title="Browser" CanMoveBack="true">
                 <local:CustomNavigationBar.RightToolbar>
-                    <local:SvgImage Source="ic_bookmark.svg"  />
+                    <local:SvgImage x:Name="bookmark" Clicked="Bookmarked_Clicked"  Source="ic_bookmark.svg"  />
                 </local:CustomNavigationBar.RightToolbar>
             </local:CustomNavigationBar>
-            <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
-                
-                <WebView x:Name="webView" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                <ScrollView>
+                <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" >
                 </WebView>
-                  
-                </AbsoluteLayout>
+                </ScrollView>
+              
+                </Grid>
             </Grid>
 	</local:BaseContentPage.Content>
 </local:BaseContentPage>
