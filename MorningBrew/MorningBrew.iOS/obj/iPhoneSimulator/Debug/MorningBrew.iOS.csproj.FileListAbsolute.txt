@@ -217,3 +217,5 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/MorningBrew.iOS.csproj.CoreCompileInputs.cache
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/MorningBrewiOS.exe
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/MorningBrewiOS.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/IconFAB.png
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/bookmarkfab.png

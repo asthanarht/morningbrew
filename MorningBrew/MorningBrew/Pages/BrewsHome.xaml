@@ -8,7 +8,7 @@
             </Grid.RowDefinitions>
             <local:CustomNavigationBar BackgroundColor="#E48762"  Title="The Morning Brew" CanMoveBack="false">
                 <local:CustomNavigationBar.RightToolbar>
-                    <local:SvgImage Source="ic_bookmark.svg" Clicked="BookMarkClicked" />
+                    <local:SvgImage HeightRequest="50" WidthRequest="50" Source="ic_bookmark.svg" Clicked="BookMarkClicked" />
                 </local:CustomNavigationBar.RightToolbar>
             </local:CustomNavigationBar>
             <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
@@ -43,7 +43,7 @@
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="*" />
                                             <ColumnDefinition Width="Auto" />
-                                            <ColumnDefinition Width="30" />
+                                           <!-- <ColumnDefinition Width="30" />-->
                                         </Grid.ColumnDefinitions>
                                         <Label Grid.Row="0" Grid.RowSpan="2" Text="{Binding BrewTitle}" TextColor="#A66349" FontAttributes="Bold" Style="{DynamicResource EvolveListItemTextStyle}" StyleId="SessionItem" />
                                         <Label Grid.Row="2" Text="{Binding BrewDesc}" Style="{DynamicResource EvolveListItemDetailTextStyle}" />

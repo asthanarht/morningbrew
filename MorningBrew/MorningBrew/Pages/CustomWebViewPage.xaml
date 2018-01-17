@@ -11,11 +11,12 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <local:CustomNavigationBar BackgroundColor="#E48762" Title="Browser" CanMoveBack="true">
-                <local:CustomNavigationBar.RightToolbar>
+               <!-- <local:CustomNavigationBar.RightToolbar>
                     <Button x:Name="bookmark" Clicked="Bookmarked_Clicked" Text="Bookmark"  />
-                </local:CustomNavigationBar.RightToolbar>
+                </local:CustomNavigationBar.RightToolbar>-->
             </local:CustomNavigationBar>
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
+             <AbsoluteLayout Grid.Row="1">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
@@ -26,6 +27,13 @@
                 </ScrollView>
               
                 </Grid>
+                <local:ImageButton Source="bookmarkfab.png" HeightRequest="50" WidthRequest="50" ItemTapped="Bookmarked_Clicked"
+                                        Command="{Binding AddCommand}"
+                                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                                        AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
+                                        Margin="10" />
+                  </AbsoluteLayout>
             </Grid>
+        
 	</local:BaseContentPage.Content>
 </local:BaseContentPage>

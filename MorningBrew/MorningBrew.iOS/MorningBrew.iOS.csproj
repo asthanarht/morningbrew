@@ -138,6 +138,8 @@
     <BundleResource Include="Resources\progress_balls.json" />
     <BundleResource Include="Resources\bookmark_animation.json" />
     <BundleResource Include="Resources\save_bookmark.json" />
+    <BundleResource Include="Resources\IconFAB.png" />
+    <BundleResource Include="Resources\bookmarkfab.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

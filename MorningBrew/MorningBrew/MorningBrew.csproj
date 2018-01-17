@@ -79,6 +79,7 @@
     <Compile Include="Pages\CustomWebViewPage.xaml.cs">
       <DependentUpon>CustomWebViewPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Control\ImageButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PCLStorage">
