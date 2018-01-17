@@ -37,6 +37,7 @@
 
             <Label Text="{Binding Title}"
                 Grid.ColumnSpan="3"
+                TextColor ="White"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 FontSize="Large">

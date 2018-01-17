@@ -6,7 +6,7 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <local:CustomNavigationBar Title="Morning Brew" CanMoveBack="false">
+            <local:CustomNavigationBar BackgroundColor="#E48762"  Title="The Morning Brew" CanMoveBack="false">
                 <local:CustomNavigationBar.RightToolbar>
                     <local:SvgImage Source="ic_bookmark.svg" Clicked="BookMarkClicked" />
                 </local:CustomNavigationBar.RightToolbar>

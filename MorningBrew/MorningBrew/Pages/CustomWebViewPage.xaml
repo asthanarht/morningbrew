@@ -10,9 +10,9 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <local:CustomNavigationBar Title="Browser" CanMoveBack="true">
+            <local:CustomNavigationBar BackgroundColor="#E48762" Title="Browser" CanMoveBack="true">
                 <local:CustomNavigationBar.RightToolbar>
-                    <local:SvgImage x:Name="bookmark" Clicked="Bookmarked_Clicked"  Source="ic_bookmark.svg"  />
+                    <Button x:Name="bookmark" Clicked="Bookmarked_Clicked" Text="Bookmark"  />
                 </local:CustomNavigationBar.RightToolbar>
             </local:CustomNavigationBar>
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">

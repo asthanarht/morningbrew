@@ -1,24 +1,14 @@
 ﻿<Properties StartupConfiguration="{B28B17E1-AFDD-4A56-BE9C-0B777EB278B6}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="morningbrew Status">
     <Files>
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="9" Column="66" />
+      <File FileName="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml" Line="16" Column="58" />
+      <File FileName="MorningBrew/MorningBrew/Control/CustomNavigationBar.xaml" Line="40" Column="34" />
+      <File FileName="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" Line="26" Column="54" />
       <File FileName="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" Line="73" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="61" Column="25" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" Line="71" Column="14" />
-      <File FileName="MorningBrew/MorningBrew/Service/BrewFeedItem.cs" Line="75" Column="15" />
-      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml" Line="81" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" Line="19" Column="9" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml" Line="88" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" Line="52" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" Line="62" Column="14" />
       <File FileName="MorningBrew/MorningBrew.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml" Line="32" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" Line="28" Column="9" />
-      <File FileName="MorningBrew/MorningBrew/Pages/WebViewPage.cs" Line="19" Column="41" />
-      <File FileName="MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.BrewsHome.xaml.g.cs" Line="23" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/App.xaml.cs" Line="22" Column="59" />
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/ViewModel/BrewFavoriteViewModel.cs" Line="1" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" Line="58" Column="1" />
-      <File FileName="MorningBrew/MorningBrew/Service/IBrewFavoriteService.cs" Line="10" Column="14" />
-      <File FileName="MorningBrew/MorningBrew/Service/BrewService.cs" Line="1" Column="1" />
       <File FileName="morningbrew Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -29,8 +19,7 @@
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" relfile="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" line="22" column="1" />
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" relfile="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" line="44" column="1" />
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" relfile="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" line="73" column="1" />
-      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" relfile="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" line="32" column="1" />
-      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" relfile="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" line="30" column="1" />
+      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" relfile="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml.cs" line="40" column="1" />
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" relfile="MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" line="48" column="1" />
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" relfile="MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" line="52" column="1" />
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" relfile="MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" line="58" column="1" />

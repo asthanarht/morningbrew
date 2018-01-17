@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MorningBrew
@@ -21,7 +21,15 @@ namespace MorningBrew
         {
             InitializeComponent();
             this.Brew = brew;
-            webView.Source = System.Uri.EscapeUriString(brew.BrewUrl);
+
+                webView.Source = System.Uri.EscapeUriString(brew.BrewUrl);
+                webView.Navigating+= (sender, e) => {
+                    using (var b = new Busy(ViewModel, "One moment, Loading"))
+                    {
+                    Task.Delay(1000);
+                    }
+                };
+
 
         }
 
