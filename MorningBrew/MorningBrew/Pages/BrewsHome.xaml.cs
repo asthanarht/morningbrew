@@ -72,6 +72,8 @@ namespace MorningBrew.ViewModel
         }
         async void BookMarkClicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new BrewFavoritePage());
+           // Hud.Instance.ShowToast("This is in home page and bookmark called");
         }
 
      

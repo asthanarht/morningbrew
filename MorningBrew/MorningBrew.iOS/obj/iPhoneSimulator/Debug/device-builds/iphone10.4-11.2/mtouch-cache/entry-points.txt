@@ -16,13 +16,13 @@ Function=WriteZStream
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/System.dll
 Function=xamarin_start_wwan
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/System.dll
-Function=UIApplicationMain
-	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
 Function=xamarin_get_block_descriptor
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
 Function=xamarin_IntPtr_objc_msgSend_IntPtr
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
 Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=UIApplicationMain
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Xamarin.iOS.dll
 ObjectiveCClass=OBJC_CLASS_$_LOTAnimationView
 	/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/Link/Lottie.iOS.dll

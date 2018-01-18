@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew"
     x:Class="MorningBrew.CustomWebViewPage"
-    x:TypeArguments="local:BrewHomeViewModel">
+    x:TypeArguments="local:CustomWebViewModel">
 	<local:BaseContentPage.Content>
          <Grid RowSpacing="0">
             <Grid.RowDefinitions>

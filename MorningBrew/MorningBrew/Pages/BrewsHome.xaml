@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew" xmlns:cells="clr-namespace:MorningBrew;assembly=MorningBrew" xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms" x:Name="BrewsHome" x:Class="MorningBrew.ViewModel.BrewsHome" x:TypeArguments="local:BrewHomeViewModel">
+<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew" 
+    xmlns:cells="clr-namespace:MorningBrew;assembly=MorningBrew" 
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    x:Name="BrewsHome" x:Class="MorningBrew.ViewModel.BrewsHome"
+    x:TypeArguments="local:BrewHomeViewModel">
     <local:BaseContentPage.RootContent>
         <Grid RowSpacing="0">
             <Grid.RowDefinitions>

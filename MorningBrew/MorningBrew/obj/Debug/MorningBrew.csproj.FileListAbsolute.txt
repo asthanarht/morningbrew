@@ -35,9 +35,6 @@
 /Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Code.Pages.Android.MenuPage.xaml.g.cs
 /Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/obj/Debug/MorningBrew.dll
 /Users/asthanarht/Projects/asthanarht/morningbrew.git/MorningBrew/MorningBrew/obj/Debug/MorningBrew.pdb
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.csproj.CoreCompileInputs.cache
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.dll
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Converter/ImageConverters.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/MorningBrew.dll
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/MorningBrew.pdb
@@ -60,6 +57,9 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/MvvmHelpers.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/MvvmHelpers.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/SkiaSharp.xml
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/HtmlAgilityPack.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/HtmlAgilityPack.xml
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Toasts.Forms.Plugin.Abstractions.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Xamarin.Forms.Core.pdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Xamarin.Forms.Core.xml
@@ -67,14 +67,13 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Xamarin.Forms.Xaml.xml
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Lottie.Forms.pdb
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/HtmlAgilityPack.pdb
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/HtmlAgilityPack.xml
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/bin/Debug/Toasts.Forms.Plugin.Abstractions.pdb
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.csproj.CoreCompileInputs.cache
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.BrewsHome.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Cells.GroupHeaderView.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.App.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Cells.BrewCustomCell.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.BrewFavoritePage.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Control.CustomNavigationBar.xaml.g.cs
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.csprojResolveAssemblyReference.cache
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.CustomWebViewPage.xaml.g.cs
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.dll
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.pdb

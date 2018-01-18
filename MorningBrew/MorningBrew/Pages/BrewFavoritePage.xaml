@@ -1,14 +1,24 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MorningBrew.Code.BrewFavoritePage" 
-		Title="Favorite" Icon="tab_fav.png">
+<?xml version="1.0" encoding="UTF-8"?>
+<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+     xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="MorningBrew.ViewModel.BrewFavoritePage" 
+		x:TypeArguments="local:BrewFavoriteViewModel">
 	
-	 <Grid RowSpacing="0">
-		<AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+     <local:BaseContentPage.RootContent>
+        <Grid RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+             <local:CustomNavigationBar BackgroundColor="#E48762"  Title="Bookmark Brew" CanMoveBack="true">
+
+            </local:CustomNavigationBar>
+             <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
    <ListView 
             x:Name="FavListViewBrew"
             ItemsSource="{Binding FavBrewFeed}"
-           
+         
             IsPullToRefreshEnabled="{Binding IsNotBusy}"
             IsRefreshing="{Binding IsBusy, Mode=OneWay}"
             HasUnevenRows ="true"
@@ -36,7 +46,7 @@
 		        <Grid.ColumnDefinitions>
 		            <ColumnDefinition Width="*"/>
 		            <ColumnDefinition Width="Auto"/>
-		            <ColumnDefinition Width="30"/>
+
 		        </Grid.ColumnDefinitions>
 
 
@@ -54,12 +64,7 @@
 		                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
 		                   StyleId="SpeakerNames"/>
 
-		            <Label Grid.Row="3"
-		                   VerticalOptions="End"
-		                   Text="{Binding .}" 
-		                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
-		                   StyleId="SessionTime"/>
-		        
+		            
 
 		        
     </Grid>
@@ -69,19 +74,8 @@
       </ListView.ItemTemplate>
     </ListView>
 
-			 <StackLayout IsVisible="{Binding IsBusy}"
-                                   AbsoluteLayout.LayoutFlags="PositionProportional"
-                                   AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
-                                    <StackLayout.Orientation>
-                                    <OnPlatform x:TypeArguments="StackOrientation" iOS="Horizontal"/>
-                                   </StackLayout.Orientation>
-            <ActivityIndicator IsRunning="{Binding IsBusy}" >
-                <ActivityIndicator.Color>
-                    <OnPlatform x:TypeArguments="Color" Android="{StaticResource Accent}"/>
-                </ActivityIndicator.Color>
-            </ActivityIndicator>
-            <Label Text="Loading Sessions..." HorizontalOptions="Center" Style="{DynamicResource EvolveListItemTextStyle}"/>
-       </StackLayout>
-			</AbsoluteLayout>
+			
+            </AbsoluteLayout>
 		</Grid>
-</ContentPage>
+        </local:BaseContentPage.RootContent>
+</local:BaseContentPage>

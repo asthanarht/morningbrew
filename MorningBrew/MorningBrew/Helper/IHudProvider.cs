@@ -7,7 +7,7 @@ namespace MorningBrew
     public interface IHudProvider
     {
         string HudMessage { get; set; }
-
+        void ShowToast(string message, NoticationType type = NoticationType.None, int timeout = 2000);
         void ShowProgress(string message);
         void Show(string message, View view = null);
         Task Dismiss(bool animate = false);

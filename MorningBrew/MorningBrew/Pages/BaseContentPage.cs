@@ -24,7 +24,8 @@ namespace MorningBrew
         ContentView _hudView; //Holds a view, such as an animation or checkmark image
         AnimationView _progressAnimation; //Progress animation that plays when HUD is showing
        //Root container for all Toast related controls
-       
+        Grid _toastRoot;
+        Label _toastLabel; 
         public string HudMessage { 
             get { return _hudLabel?.Text; }
             set { if (_hudLabel == null) return; _hudLabel.Text = value; }
@@ -49,26 +50,18 @@ namespace MorningBrew
             BindingContext = _viewModel;
             NavigationPage.SetHasNavigationBar(this, false);
 
-            //var bg = new Gradient()
-            //{
-            //    Rotation = 150,
-            //    Steps = new GradientStepCollection()
-            //    {
-            //        new GradientStep((Color)Application.Current.Resources["topGradient"], 0),
-            //        new GradientStep((Color)Application.Current.Resources["bottomGradient"], 1)
-            //    }
-            //};
-
-            NavigationPage.SetHasNavigationBar(this, false);
-            //ContentPageGloss.SetBackgroundGradient(this, bg);
-
-
             if (Hud.Instance == null)
                 Hud.Instance = this;
-
+            
 
         }
-
+      
+        protected override void OnAppearing()
+        {
+            Hud.Instance = this;
+           // SetContent();
+            base.OnAppearing();
+        }
         private void SetContent()
         {
             if (_contentView == null)
@@ -122,6 +115,36 @@ namespace MorningBrew
             _hudRoot.BackgroundColor = (Color)Application.Current.Resources["hudBackgroundColor"];
             _hudRoot.IsVisible = false;
 
+            _toastRoot = new Grid
+            {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.Start,
+                Margin = new Thickness(0),
+                BackgroundColor = (Color)Application.Current.Resources["toastBackgroundColor"],
+                IsVisible = false,
+                HeightRequest = CustomNavigationBar.YOffset,
+            };
+
+            var separatorBottom = new ContentView { Style = (Style)Application.Current.Resources["separator"] };
+            var separatorTop = new ContentView { Style = (Style)Application.Current.Resources["separator"] };
+            separatorTop.VerticalOptions = LayoutOptions.Start;
+
+            _toastLabel = new Label
+            {
+                FontSize = Device.GetNamedSize(NamedSize.Small, typeof(Label)),
+                TextColor = Color.White,
+                HorizontalTextAlignment = TextAlignment.Center,
+                LineBreakMode = LineBreakMode.WordWrap,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Center,
+                Margin = new Thickness(20, 10 + _toastTopMargin, 20, 10),
+            };
+
+            _toastRoot.Children.Add(separatorTop);
+            _toastRoot.Children.Add(separatorBottom);
+            _toastRoot.Children.Add(_toastLabel);
+
+
             AbsoluteLayout.SetLayoutFlags(_contentView, AbsoluteLayoutFlags.All);
             AbsoluteLayout.SetLayoutBounds(_contentView, new Rectangle(0, 0, 1, 1));
 
@@ -129,8 +152,13 @@ namespace MorningBrew
             AbsoluteLayout.SetLayoutBounds(_hudRoot, new Rectangle(0, 0, 1, 1));
 
 
+            AbsoluteLayout.SetLayoutFlags(_toastRoot, AbsoluteLayoutFlags.All);
+            AbsoluteLayout.SetLayoutBounds(_toastRoot, new Rectangle(0, 0, 1, 1));
+
+            _toastRoot.TranslationY = CustomNavigationBar.YOffset * -1;
 
             _rootLayout.Children.Add(_contentView);
+            _rootLayout.Children.Add(_toastRoot);
             _rootLayout.Children.Add(_hudRoot);
 
             Content = _rootLayout;
@@ -155,7 +183,34 @@ namespace MorningBrew
                 _hudRoot.IsVisible = false;
             });
         }
+        double _toastTopMargin = Device.RuntimePlatform == Device.iOS ? 20 : 0;
+        double _toastHeight = CustomNavigationBar.YOffset;
 
+        public async void ShowToast(string message, NoticationType type, int timeout = 3500)
+        {
+            if (_toastRoot == null || _toastRoot.IsVisible)
+                return;
+
+            if (_hudRoot != null && _hudRoot.IsVisible)
+                await Dismiss();
+
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                _toastLabel.Text = message;
+                _toastRoot.IsVisible = true;
+            });
+
+            await _toastRoot.TranslateTo(0, 0, 250);
+            await Task.Delay(timeout).ConfigureAwait(false);
+            await _toastRoot.TranslateTo(0, CustomNavigationBar.YOffset * -1, 250);
+
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                _toastRoot.IsVisible = false;
+            });
+        }
+
+      
         public void Show(string message, View view = null)
         {
 

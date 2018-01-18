@@ -4,7 +4,7 @@ using System.Windows.Input;
 using MvvmHelpers;
 using Xamarin.Forms;
 
-namespace MorningBrew.Code
+namespace MorningBrew
 {
 	public class BrewFavoriteViewModel:BaseViewModel
 	{
