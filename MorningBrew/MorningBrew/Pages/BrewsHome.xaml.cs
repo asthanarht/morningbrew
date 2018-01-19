@@ -18,41 +18,7 @@ namespace MorningBrew.ViewModel
 		
 		public BrewsHome()
 		{
-			 InitializeComponent();
-           // var t = this.animationViewCustom.AutoPlay=true;
-           
-            //AnimationViewCustom.Focused +=  (sender, e) =>
-            //{
-                
-            //    var brew = ListViewBrew.SelectedItem as DayBrew;
-
-            //     if (brew != null)
-            //    {
-            //         ViewModel.FavoriteCommand.Execute(brew);
-            //    }
-                    
-            //    var m = sender;
-            //    var t = e;
-            //    var tss = "safsaf";
-            //};
-			//BindingContext = vm = new BrewHomeViewModel();
-
-           // ViewModel.ExecuteLoadBrewsAsync().GetAwaiter().GetResult();
-
-			//ListViewBrew.ItemSelected += async (sender, e) =>
-				//{
-    //                using (var b = new Busy(ViewModel, "One moment, please"))
-    //                {
-    //                    var brew = ListViewBrew.SelectedItem as DayBrew;
-    //                    if (brew == null)
-    //                        return;
-    //                   await Navigation.PushAsync(new CustomWebViewPage(brew.BrewUrl));
-    //              //  await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew.BrewUrl)));
-
-
-    //                    ListViewBrew.SelectedItem = null;
-    //                }
-				//};
+            InitializeComponent();
 
 
 		}
@@ -64,7 +30,7 @@ namespace MorningBrew.ViewModel
                 if (brew == null)
                     return;
                 await Navigation.PushAsync(new CustomWebViewPage(brew));
-                //  await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew.BrewUrl)));
+              //  await Navigation.PushModalAsync(ToNav(new CustomWebViewPage(brew)));
 
 
                 ListViewBrew.SelectedItem = null;

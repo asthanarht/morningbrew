@@ -188,6 +188,24 @@ namespace MorningBrew
 
         public async void ShowToast(string message, NoticationType type, int timeout = 3500)
         {
+            switch(type)
+            {
+                case NoticationType.Success:
+                    {
+                        _toastRoot.BackgroundColor = Color.Green;
+                        break;
+                    }
+                case NoticationType.Error:
+                    {
+                        _toastRoot.BackgroundColor = Color.Red;
+                        break;
+                    }
+                case NoticationType.None:
+                    {
+                        _toastRoot.BackgroundColor = (Color)Application.Current.Resources["toastBackgroundColor"];
+                        break;
+                    }
+            }
             if (_toastRoot == null || _toastRoot.IsVisible)
                 return;
 

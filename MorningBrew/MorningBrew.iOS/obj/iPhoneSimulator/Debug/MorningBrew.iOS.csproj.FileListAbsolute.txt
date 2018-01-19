@@ -86,15 +86,11 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Default-Portrait@2x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Default.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Default@2x.png
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-60@2x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-60@3x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-76.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-76@2x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-Small-40.png
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-Small-40@2x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-Small-40@3x.png
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-Small.png
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-Small@2x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/Icon-Small@3x.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/coffeebrew.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/heart_empty.png

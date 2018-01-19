@@ -18,4 +18,4 @@ AndroidUseLatestPlatformSdk=true
 TargetFrameworkVersion=v7.1
 AndroidCreatePackagePerAbi=
 OS=Unix
-DesignTimeBuild=
+DesignTimeBuild=true

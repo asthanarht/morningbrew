@@ -2,18 +2,16 @@
 <local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew"
-    x:Class="MorningBrew.CustomWebViewPage"
+    x:Class="MorningBrew.ViewModel.CustomWebViewPage"
     x:TypeArguments="local:CustomWebViewModel">
-	<local:BaseContentPage.Content>
+	 <local:BaseContentPage.RootContent>
          <Grid RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <local:CustomNavigationBar BackgroundColor="#E48762" Title="Browser" CanMoveBack="true">
-               <!-- <local:CustomNavigationBar.RightToolbar>
-                    <Button x:Name="bookmark" Clicked="Bookmarked_Clicked" Text="Bookmark"  />
-                </local:CustomNavigationBar.RightToolbar>-->
+          
             </local:CustomNavigationBar>
              <AbsoluteLayout Grid.Row="1">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
@@ -21,13 +19,13 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                <ScrollView>
+          
                 <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" >
                 </WebView>
-                </ScrollView>
+              
               
                 </Grid>
-                <local:ImageButton Source="bookmarkfab.png" HeightRequest="50" WidthRequest="50" ItemTapped="Bookmarked_Clicked"
+                <local:ImageButton Source="bookmarkfab.png" HeightRequest="50" WidthRequest="50" 
                                         Command="{Binding AddCommand}"
                                         AbsoluteLayout.LayoutFlags="PositionProportional"
                                         AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
@@ -35,5 +33,5 @@
                   </AbsoluteLayout>
             </Grid>
         
-	</local:BaseContentPage.Content>
+	 </local:BaseContentPage.RootContent>
 </local:BaseContentPage>

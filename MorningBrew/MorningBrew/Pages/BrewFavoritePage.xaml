@@ -46,7 +46,7 @@
 		        <Grid.ColumnDefinitions>
 		            <ColumnDefinition Width="*"/>
 		            <ColumnDefinition Width="Auto"/>
-
+                    <ColumnDefinition Width="30"/>
 		        </Grid.ColumnDefinitions>
 
 
@@ -66,6 +66,15 @@
 
 		            
 
+                                <local:SvgImage
+                                    Grid.Column="2"
+                                    Grid.Row="0"
+                                   Color="#E48762"
+                                    Clicked="BrewDeletedClicked"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="End"
+
+                                    Source="trash1.svg" />
 		        
     </Grid>
 

@@ -44,7 +44,6 @@
         <image name="Icon-60.png" width="60" height="60"/>
         <image name="Icon-76.png" width="76" height="76"/>
         <image name="Icon-Small-40.png" width="40" height="40"/>
-        <image name="Icon-Small.png" width="29" height="29"/>
         <image name="heart_empty.png" width="22" height="20"/>
         <image name="heart_filled.png" width="22" height="20"/>
         <image name="cup_empty.png" width="50" height="50"/>
@@ -56,5 +55,6 @@
         <image name="IconFAB.png" width="80" height="80"/>
         <image name="bookmarkfab.png" width="76" height="76"/>
         <image name="brewsplash.png" width="375" height="667"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
     </resources>
 </document>
