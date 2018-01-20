@@ -1,90 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-     xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew" 
-		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-        x:Class="MorningBrew.ViewModel.BrewFavoritePage" 
-		x:TypeArguments="local:BrewFavoriteViewModel">
-	
-     <local:BaseContentPage.RootContent>
+<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:MorningBrew;assembly=MorningBrew" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MorningBrew.ViewModel.BrewFavoritePage" x:TypeArguments="local:BrewFavoriteViewModel">
+    <local:BaseContentPage.RootContent>
         <Grid RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-             <local:CustomNavigationBar BackgroundColor="#E48762"  Title="Bookmark Brew" CanMoveBack="true">
-
+            <local:CustomNavigationBar BackgroundColor="#E48762" Title="Favorite Brew" CanMoveBack="true">
             </local:CustomNavigationBar>
-             <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
-   <ListView 
-            x:Name="FavListViewBrew"
-            ItemsSource="{Binding FavBrewFeed}"
-         
-            IsPullToRefreshEnabled="{Binding IsNotBusy}"
-            IsRefreshing="{Binding IsBusy, Mode=OneWay}"
-            HasUnevenRows ="true"
-            CachingStrategy="RecycleElement"
-            IsVisible="{Binding IsNotBusy}"
-            BackgroundColor="White"
-            AbsoluteLayout.LayoutFlags="All" 
-            AbsoluteLayout.LayoutBounds="0,0,1,1">
-            <ListView.SeparatorColor>
-                <OnPlatform x:TypeArguments="Color" Android="{StaticResource ListSeparator}" iOS="{StaticResource ListSeparator}" WinPhone="{StaticResource ListSeparator}"/>
-            </ListView.SeparatorColor>
-      
-       <ListView.ItemTemplate>
-        <DataTemplate>
-          <ViewCell>
-				
-            <Grid Padding="{DynamicResource StandardPadding}" 
-		          ColumnSpacing="{StaticResource StandardSpacing}">
-		        <Grid.RowDefinitions>
-		            <RowDefinition Height="30"/>
-		            <RowDefinition Height="*"/>
-		            <RowDefinition Height="Auto"/>
-		            <RowDefinition Height="Auto"/>
-		        </Grid.RowDefinitions>
-		        <Grid.ColumnDefinitions>
-		            <ColumnDefinition Width="*"/>
-		            <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="30"/>
-		        </Grid.ColumnDefinitions>
-
-
-		            <Label Grid.Row="0"
-		                   Grid.RowSpan="2"
-		                   Text="{Binding BrewTitle}" 
-						   TextColor="#A66349"
-						   FontAttributes="Bold"
-		                   Style="{DynamicResource EvolveListItemTextStyle}"
-		                   StyleId="SessionItem"/>
-
-
-		            <Label Grid.Row="2"
-		                   Text="{Binding BrewDesc}" 
-		                   Style="{DynamicResource EvolveListItemDetailTextStyle}"
-		                   StyleId="SpeakerNames"/>
-
-		            
-
-                                <local:SvgImage
-                                    Grid.Column="2"
-                                    Grid.Row="0"
-                                   Color="#E48762"
-                                    Clicked="BrewDeletedClicked"
-                                    HorizontalOptions="Center"
-                                    VerticalOptions="End"
-
-                                    Source="trash1.svg" />
-		        
-    </Grid>
-
-          </ViewCell>
-        </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
-
-			
+            <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="1">
+                <ListView x:Name="FavListViewBrew" ItemSelected="FavBrewItemSelected" ItemsSource="{Binding FavBrewFeed}"  HasUnevenRows="true" CachingStrategy="RecycleElement"  BackgroundColor="White" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1">
+                    <ListView.SeparatorColor>
+                        <OnPlatform x:TypeArguments="Color" Android="{StaticResource ListSeparator}" iOS="{StaticResource ListSeparator}" WinPhone="{StaticResource ListSeparator}" />
+                    </ListView.SeparatorColor>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="{DynamicResource StandardPadding}" ColumnSpacing="{StaticResource StandardSpacing}">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="30" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Row="0" Grid.RowSpan="2" Text="{Binding BrewTitle}" TextColor="#A66349" FontAttributes="Bold" Style="{DynamicResource EvolveListItemTextStyle}" StyleId="SessionItem" />
+                                    <Label Grid.Row="2" Text="{Binding BrewDesc}" Style="{DynamicResource EvolveListItemDetailTextStyle}" StyleId="SpeakerNames" />
+                                    <local:SvgImage Grid.Column="2" Grid.Row="0" Color="#E48762" Clicked="BrewDeletedClicked" HorizontalOptions="Center" VerticalOptions="End" Source="trash1.svg" />
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </AbsoluteLayout>
-		</Grid>
-        </local:BaseContentPage.RootContent>
+        </Grid>
+    </local:BaseContentPage.RootContent>
 </local:BaseContentPage>

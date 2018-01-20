@@ -27,6 +27,27 @@ namespace MorningBrew
 			FavBrewFeed.AddRange(await brewFavService.GetFavoriteBrew());
 
 		}
+
+        ICommand deleteFavBrewsCommand;
+        public ICommand DeleteFavBrewsCommand =>
+        deleteFavBrewsCommand ?? (deleteFavBrewsCommand = new Command<DayBrew>(async (f) => await ExecuteDeleteBrewLoadBrewsAsync(f)));
+
+        public async Task ExecuteDeleteBrewLoadBrewsAsync(DayBrew brew)
+        {
+
+            if (brew != null)
+            {
+                var result = await brewFavService.DeleteFavoritBrew(brew);
+                if (result)
+                {
+                    
+                    FavBrewFeed.Remove(brew);
+                        return;
+                }
+            }
+
+        }
+       
 	}
 }
 

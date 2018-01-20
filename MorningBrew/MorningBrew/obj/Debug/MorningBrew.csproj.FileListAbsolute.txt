@@ -71,7 +71,6 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.BrewsHome.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Cells.GroupHeaderView.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.App.xaml.g.cs
-/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Cells.BrewCustomCell.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.BrewFavoritePage.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Control.CustomNavigationBar.xaml.g.cs
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/obj/Debug/MorningBrew.Pages.CustomWebViewPage.xaml.g.cs

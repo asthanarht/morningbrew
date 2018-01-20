@@ -8,7 +8,7 @@ namespace MorningBrew
 	{
 		Task<List<DayBrew>> GetFavoriteBrew();
 		Task<bool> InsertFavoritBrew(DayBrew brewFeed);
-		//Task UpdateCompanies();
+        Task<bool> DeleteFavoritBrew(DayBrew brewFeed);
 	}
 }
 

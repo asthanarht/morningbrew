@@ -52,7 +52,6 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BaseViewModel.cs" />
-    <Compile Include="Pages\WebViewPage.cs" />
     <Compile Include="Service\NavigationService.cs" />
     <Compile Include="Converter\ImageConverters.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -60,9 +59,6 @@
     <Compile Include="Control\NavigationView.cs" />
     <Compile Include="Service\IBrewFavoriteService.cs" />
     <Compile Include="Service\BrewFavoriteService.cs" />
-    <Compile Include="Cells\BrewCustomCell.xaml.cs">
-      <DependentUpon>BrewCustomCell.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\BrewFavoritePage.xaml.cs">
       <DependentUpon>BrewFavoritePage.xaml</DependentUpon>
     </Compile>
@@ -146,9 +142,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="App.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cells\BrewCustomCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\BrewFavoritePage.xaml">

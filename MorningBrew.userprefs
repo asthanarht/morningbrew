@@ -1,7 +1,16 @@
 ﻿<Properties StartupConfiguration="{B28B17E1-AFDD-4A56-BE9C-0B777EB278B6}|Default" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="morningbrew Status">
     <Files>
-      <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml" Line="72" Column="50" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml" Line="9" Column="81" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml" Line="21" Column="80" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml.cs" Line="34" Column="13" />
+      <File FileName="MorningBrew/MorningBrew/Pages/BrewsHome.xaml.cs" Line="38" Column="10" />
+      <File FileName="MorningBrew/MorningBrew/Pages/CustomWebViewPage.xaml" Line="38" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" Line="30" Column="54" />
+      <File FileName="MorningBrew/MorningBrew/Service/BrewFavoriteService.cs" Line="91" Column="33" />
+      <File FileName="MorningBrew/MorningBrew/Service/BrewService.cs" Line="1" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/Service/IBrewService.cs" Line="1" Column="1" />
+      <File FileName="MorningBrew/MorningBrew/ViewModel/BrewHomeViewModel.cs" Line="39" Column="18" />
       <File FileName="morningbrew Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
@@ -10,7 +19,6 @@
     <BreakpointStore>
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" relfile="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" line="22" column="1" />
       <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" relfile="MorningBrew/MorningBrew/Cells/BrewCustomCell.xaml.cs" line="44" column="1" />
-      <Breakpoint file="/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml.cs" relfile="MorningBrew/MorningBrew/Pages/BrewFavoritePage.xaml.cs" line="28" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

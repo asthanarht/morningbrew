@@ -80,6 +80,21 @@ namespace MorningBrew
 
 			return folder;
 		}
-	}
+
+        public async Task<bool> DeleteFavoritBrew(DayBrew brewFeed)
+        {
+            try
+            {
+                var brewList = await GetFavoriteBrew();
+                var updatedBrewList = brewList.Where(x => x.BrewUrl != brewFeed.BrewUrl).ToList();
+                var folder = await NavigateToFolder(BrewFolder);
+                return await SaveBrewList(folder, updatedBrewList);
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    }
 }
 
