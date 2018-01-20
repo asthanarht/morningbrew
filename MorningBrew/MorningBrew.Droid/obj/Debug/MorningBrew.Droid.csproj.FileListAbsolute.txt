@@ -91,6 +91,8 @@
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/res/drawable-hdpi/bookmarkfab.png
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/R.cs.flag
 /Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/uploadflags.txt
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/res/drawable-hdpi/splash.png
+/Users/asthanarht/Documents/XF/morningbrew/MorningBrew/MorningBrew.Droid/obj/Debug/res/drawable-hdpi/brewicon.png
 bin/Debug/Mono.Android.pdb
 obj/Debug/linksrc/FormsViewGroup.dll.mdb
 obj/Debug/linksrc/Toasts.Forms.Plugin.Droid.dll.mdb
