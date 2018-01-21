@@ -1,14 +1,14 @@
-# morningbrew
-xamarin app for morning brew
+# The Morning Brew
+Monring brew is famous site (http://blog.cwa.me.uk/) among .net developer. This site is regularly update by gentleman Chris Alcock. Thanks to him for this beautiful site. I tried little effort to make a mobile app which help me bookmark article which i can read later anyplace anywhere. This app is made for both mobile platform Android and iOS using Xamarin form.
 
 ### Current Build Status
 ![Build Status](https://asthanarht.visualstudio.com/_apis/public/build/definitions/03fb0f46-2433-459d-857f-747b8697acbb/2/badge)
 
 
-# The Morning Brew
+
 
 [![npm](https://img.shields.io/github/license/juliaqiuxy/slopeninja-frontend.svg)](https://github.com/juliaqiuxy/slopeninja-frontend/blob/master/LICENSE.md)
-
+----------
 ### Morning Brew in Android Play Store
 
 You can download Morning from Android 
@@ -39,7 +39,13 @@ Morning Brew Video - Click on thumbnail
 
 ----------
 
+### What you can learn from repository
 
+1. Floating bookmark button in WebView.
+2. Custom navigation bar. 
+3. PLC storage. 
+4. I used Lottie animation for loading list. 
+5. I learned lot of things from Robb and some code borrow from his repo (https://github.com/rob-derosa)
 
 ----------
 
