@@ -26,7 +26,7 @@ This repository hosts the source code for Morning brew in xamarin form and targe
 Morning Brew Video - Click on thumbnail
 
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/1Bgbe5ag48M/0.jpg)](https://www.youtube.com/watch?v=1Bgbe5ag48M)
+[![Everything Is AWESOME](https://lh3.googleusercontent.com/x-9Xvub8jvHdK0bPaUOS1NmMtsCbu8PTCXj2G005LMt9iIEeMbwOOI3udKy9qUVh5wCyjdDvfF9l)](https://www.youtube.com/watch?v=1Bgbe5ag48M)
 
 
 ----------
