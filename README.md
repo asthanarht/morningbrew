@@ -23,7 +23,7 @@ This repository hosts the source code for Morning brew in xamarin form and targe
 
 
 ----------
-Morning Brew Video - Click on thumbnail
+### Morning Brew Video - Click on thumbnail
 
 
 [![Everything Is AWESOME](https://lh3.googleusercontent.com/x-9Xvub8jvHdK0bPaUOS1NmMtsCbu8PTCXj2G005LMt9iIEeMbwOOI3udKy9qUVh5wCyjdDvfF9l)](https://www.youtube.com/watch?v=1Bgbe5ag48M)
@@ -35,6 +35,7 @@ Morning Brew Video - Click on thumbnail
  
 ![enter image description here](https://lh3.googleusercontent.com/C9YYjwYaKGP4bYAIALJyzMaWYKF-zffvGNeV06Fiu8C7y-uNBHXB6woNXtzAZO8rJMo=h900-rw)
 ![enter image description here](https://lh3.googleusercontent.com/5i_x7DCC1UrVvQlTXqZYDq4AgmVZBt-WHRI5OjcqgVlZ-K_90Ou9jg6aibw0uh02k_U=h900-rw)
+![enter image description here](https://lh3.googleusercontent.com/rtXX1RDQYDWvgzj-QJixM6HdFjFYYQ2e36qEqqKPVAk4H-wymxMpuV9owOGMndqNdQ=h900-rw)
 
 
 ----------
