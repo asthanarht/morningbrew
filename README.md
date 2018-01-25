@@ -1,5 +1,5 @@
 # The Morning Brew
-Monring brew is famous site (http://blog.cwa.me.uk/) among .net developer. This site is regularly update by gentleman Chris Alcock. Thanks to him for this beautiful site. I tried little effort to make a mobile app which help me bookmark article which i can read later anyplace anywhere. This app is made for both mobile platform Android and iOS using Xamarin form.
+Monring brew is famous site (http://blog.cwa.me.uk/) among .net developer. This site is regularly update by gentleman Chris Alcock. Thanks to him for this beautiful site. I tried little effort to make a mobile app which help me bookmark article which i can read later anyplace anywhere. This app is made for both mobile platform Android and iOS using Xamarin form..
 
 ### Current Build Status
 ![Build Status](https://asthanarht.visualstudio.com/_apis/public/build/definitions/03fb0f46-2433-459d-857f-747b8697acbb/2/badge)
@@ -56,4 +56,4 @@ This repository hosts the source code for Morning brew in xamarin form and targe
 <a name="license"/>
 
 ### License
-All pull requests that get merged will be made available under [the MIT license](https://github.com/juliaqiuxy/slopeninja-frontend/blob/master/LICENSE.md), as the rest of the repository.
+All pull requests that get merged will be made available under [the MIT license](https://github.com/juliaqiuxy/slopeninja-frontend/blob/master/LICENSE.md), as the rest of the repository....
